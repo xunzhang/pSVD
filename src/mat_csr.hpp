@@ -12,8 +12,8 @@ public:
 	        const std::vector<int> &r_p, 
 		const std::vector<int> &c_i, 
 		const std::vector<double> &v) : 
-		dim1(m), 
-		dim2(n), 
+		dim0(m), 
+		dim1(n), 
 		nnz(num), 
 		row_ptr(r_p), col_ind(c_i), val(v) {
 			assert(row_ptr.size() == nnz);
@@ -35,11 +35,10 @@ public:
 
 
 private:
-	size_t dim1, dim2, nnz;
+	size_t dim0, dim1, nnz;
 	std::vector<int> row_ptr; 
 	std::vector<int> col_ind;
 	std::vector<double> val;
 };
-
 
 #endif

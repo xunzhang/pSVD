@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "mat_csr.hpp"
+#include "mat_container.hpp"
 
 int main(int argc, char* argv[]) 
 {	
@@ -14,8 +15,12 @@ int main(int argc, char* argv[])
 	std::vector<int> Ap(Ap_vec, Ap_vec + m + 1), Ai(Ai_vec, Ai_vec + nnz)   ;
 
 	mat_csr A(m, n, nnz, Ai, Ap, Av);
+	
 	std::vector<double> U_tmp(m);
 	std::vector< std::vector<double> > U(k, U_tmp); 
+	/* mat_container<double> U(m, k) */
+	mat_container<double> UU(m, k);
+	
 	std::vector<double> S(k);
 	std::vector<double> S_tmp(n);
 	std::vector< std::vector<double> > V(k, S_tmp); 
@@ -23,6 +28,8 @@ int main(int argc, char* argv[])
 	std::cout << A.get_val_size() << std::endl;
 	std::cout << U_tmp.size() << std::endl;
 	std::cout << U.size() << std::endl;
+	
+	std::cout << UU.dim0() << "	" << UU.dim1() << std::endl;
 	//svd_tr(A, U, S, V, p, 1.e-7);
 	
 	return 0;
