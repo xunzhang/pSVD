@@ -7,7 +7,7 @@
 #include "mat_coo.hpp"
 #include "mat_container.hpp"
 
-int svd(mat_csr &A, 
+extern int svd(mat_coo &A, 
             mat_container<double> &U, 
             std::vector<double> &S, 
 	    mat_container<double> &V, 
@@ -15,7 +15,7 @@ int svd(mat_csr &A,
 	    double eps = 1.e-7);
 
 
-int svd_tr(mat_csr &A, 
+extern int svd_tr(mat_coo &A, 
             mat_container<double> &U, 
             std::vector<double> &S, 
 	    mat_container<double> &V, 

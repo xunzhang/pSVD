@@ -7,7 +7,7 @@
 #include <iostream>
 #include <stdlib.h>
 
-template<typename T> double norm2(const std::vector<T> &vec) {
+template<typename T> double norm2(const std::vector<T> vec) {
 	double n = 0.0;
 	for(std::vector<double>::size_type ix = 0; ix != vec.size(); ++ix) {
 		n += vec[ix] * vec[ix];
@@ -15,14 +15,14 @@ template<typename T> double norm2(const std::vector<T> &vec) {
 	return sqrt(n);
 } 
 
-template<typename T> void scale(std::vector<T> &vec, double coff) {
+template<typename T> void scale(std::vector<T> vec, double coff) {
 	for(std::vector<double>::size_type ix = 0; ix != vec.size(); ++ix) {
 		vec[ix] *= coff;
 	}
 	return;
 }
 
-template<typename T> std::vector<T> vec_random(size_t n) {
+template<typename T> extern std::vector<T> vec_random(size_t n) {
 	T rand_tmp;
 	std::vector<T> res;
 	
@@ -35,7 +35,7 @@ template<typename T> std::vector<T> vec_random(size_t n) {
 	return res;
 }
 
-template<typename T> double vec_unit(std::vector<T> &vec) {
+template<typename T> double vec_unit(std::vector<T> vec) {
 	double norm = norm2<double>(vec);
 	scale(vec, 1.0 / norm);
 	return norm;
