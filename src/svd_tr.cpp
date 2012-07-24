@@ -41,10 +41,10 @@ int svd(mat_coo &A,
 	auto rho = make_vec(rho_buf, k);
 	auto B = make_mat_col_major(b_buf, k, k);
 
-	mat_container<double> P(m, k);
-	mat_container<double> Q(n, k + 1);
-	P = 0;
-	Q = 0;
+	mat_container<double, true> P(m, k);
+	mat_container<double, false> Q(n, k + 1);
+	P = 0.0;
+	Q = 0.0;
 	Q.col(0) = vec_random(Q.col(0).size()) - .5;
 	vec_unit(Q.col(0));
 
