@@ -9,13 +9,15 @@
 class mat_csr {
 public:
 	mat_csr(const size_t &m, const size_t &n, const size_t &num,
-	        const std::vector<int> &r_p, 
-		const std::vector<int> &c_i, 
+	        const std::vector<size_t> &r_p, 
+		const std::vector<size_t> &c_i, 
 		const std::vector<double> &v) : 
 		dim0(m), 
 		dim1(n), 
 		nnz(num), 
-		row_ptr(r_p), col_ind(c_i), val(v) {
+		row_ptr(r_p), 
+		col_ind(c_i), 
+		val(v) {
 			assert(row_ptr.size() == nnz);
 			assert(col_ind.size() == (m + 1));
 			assert(val.size() == nnz);
@@ -36,8 +38,8 @@ public:
 
 private:
 	size_t dim0, dim1, nnz;
-	std::vector<int> row_ptr; 
-	std::vector<int> col_ind;
+	std::vector<size_t> row_ptr; 
+	std::vector<size_t> col_ind;
 	std::vector<double> val;
 };
 

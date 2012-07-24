@@ -12,8 +12,16 @@ public:
 		inter_vec.resize(vec_dim0);
 		self.resize(vec_dim1, inter_vec);
 	}
+
 	size_t dim0() { return vec_dim0; }
+	
 	size_t dim1() { return vec_dim1; }
+	
+	inline void operator=(const Type val) {
+		inter_vec.assign(vec_dim0, val);
+		self.assign(vec_dim1, inter_vec);
+	}
+
 private:
 	std::vector<Type> inter_vec;
 	std::vector< std::vector<Type> > self;

@@ -7,12 +7,12 @@ int main(int argc, char* argv[])
 {	
 	size_t m = 6, n = 5, nnz = 10, k = 5, p = 4;
 	
-	int Ai_vec[10] = {0, 3, 1, 2, 4, 0, 1, 2, 3, 4}; // row_ptr size is nnz
-	int Ap_vec[7] = {0, 2, 3, 5, 7, 9, 10}; // col_ind size is m + 1
+	size_t Ai_vec[10] = {0, 3, 1, 2, 4, 0, 1, 2, 3, 4}; // row_ptr size is nnz
+	size_t Ap_vec[7] = {0, 2, 3, 5, 7, 9, 10}; // col_ind size is m + 1
 	double Av_vec[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}; // val size is nnz
 	
 	std::vector<double> Av(Av_vec, Av_vec + nnz);
-	std::vector<int> Ap(Ap_vec, Ap_vec + m + 1), Ai(Ai_vec, Ai_vec + nnz)   ;
+	std::vector<size_t> Ap(Ap_vec, Ap_vec + m + 1), Ai(Ai_vec, Ai_vec + nnz)   ;
 
 	mat_csr A(m, n, nnz, Ai, Ap, Av);
 	
