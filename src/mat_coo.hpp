@@ -20,6 +20,10 @@ public:
 			assert(col_indx.size() == nnz);
 			assert(val.size() == nnz);
 		}
+	mat_coo trans() {
+		mat_coo At(dim1, dim0, nnz, col_indx, row_indx, val);
+		return At;
+	}
 
 private:
 	size_t dim0, dim1, nnz;

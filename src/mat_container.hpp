@@ -4,7 +4,7 @@
 
 #include <vector>
 
-template <typename Type, bool row_major=true> class mat_container {
+template <typename T, bool row_major=true> class mat_container {
 public:
 	mat_container(size_t d0, size_t d1) {
 		vec_dim0 = d0;
@@ -24,19 +24,19 @@ public:
 	
 	size_t dim1() { return vec_dim1; }
 	
-	inline void operator=(const Type val) {
+	inline void operator=(const T &val) {
 		self.assign(vec_dim0 * vec_dim1, val);
 	}
 	
-	inline Type operator()(size_t indx0, size_t indx1) {
+	inline T operator()(size_t indx0, size_t indx1) {
 		if(row_major)
 			return self[indx0 * vec_dim1 + indx1];
 		else
 			return self[indx1 * vec_dim0 + indx0];
 	}
 
-	std::vector<Type> col(size_t indx) {
-		std::vector<Type> col;
+	std::vector<T> col(size_t indx) {
+		std::vector<T> col;
 		col.resize(vec_dim1);
 		if(row_major) {
 			for(size_t ix = indx; ix != self.size(); ix += vec_dim1) { col.push_back(self[ix]); }
@@ -48,7 +48,7 @@ public:
 	}
 
 private:
-	std::vector<Type> self;
+	std::vector<T> self;
 	size_t vec_dim0, vec_dim1;
 };
 

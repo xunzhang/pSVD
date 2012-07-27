@@ -10,6 +10,7 @@
 using std::vector;
 
 int svd(mat_coo &A, 
+		mat_coo &At,
 		mat_container<double> &U,
 		vector<double> &S,
 		mat_container<double> &V,
@@ -46,9 +47,12 @@ int svd(mat_coo &A,
 	mat_container<double, false> Q(n, k + 1);
 	P = 0.0;
 	Q = 0.0;
-	Q.col(0) = vec_random<double>((size_t)(Q.col(0).size()));// - .5;
+	vec_random<double>((size_t)(Q.col(0).size()), Q.col(0));
 	vec_unit(Q.col(0));
-
+	/*
+	vector<double> test;
+	vec_unit(test);
+	*/
 	size_t nconv = 0, l = 0, locked = 0;
 	size_t thick_cnt = 0, cnt = 0, mv_cost = 0;
 	double ot = 0;
@@ -121,6 +125,7 @@ int svd_tr(mat_coo &A,
 	if(nev + (over_sample ? over_sample : nev) >= std::min(m, n)) {
 		//return svd_ge(A, U, S, V);
 	}
-	return svd(A, U, S, V, over_sample, eps);
+	mat_coo At = A.trans();
+	return svd(A, At, U, S, V, over_sample, eps);
 }
 
