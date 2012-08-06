@@ -79,6 +79,8 @@ int main(int argc, char *argv[]) {
 	   for(int i = 0; i < n; ++i) 
 	   std::cout << "x(i) is" << x.get(i) << std::endl;
 */
+	int rank;
+	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 	if(rank == 0) 
 		for(int i = 0; i < m; ++i)
 			std::cout << "" << y.get(i) << std::endl;

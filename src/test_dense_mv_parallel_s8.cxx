@@ -13,31 +13,29 @@ template<class T, class P> void sub_task(T& mat, P& vec, P& res) {
 	MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
 	
 	int m = mat.dim0(), n = mat.dim1();
-	int sub_n = n / 2;
 	int load = m / nprocs;
 	int remainder = m % nprocs;
 	int max_load = load + remainder;
 	int *rcounts = new int [nprocs];
 	int *displs = new int [nprocs];
 	
-	auto sub_A = mat_cols(mat, 0, sub_n);
-	douban::vec_container<double> x_tmp(sub_n);
-	douban::mat_container<double> pA(max_load, sub_n);
+	douban::vec_container<double> x_tmp(n);
+	douban::mat_container<double> pA(max_load, n);
 	douban::vec_container<double> y_tmp(max_load);
 
 	
 	// copy value of vec by each procs
-	for(int i = 0; i < sub_n; ++i)
+	for(int i = 0; i < n; ++i)
 		x_tmp.get(i) = vec.get(i);
 
 
 	// copy value of mat by each procs
 	for(int i = 0; i < load; ++i)
-		for(int j = 0; j < sub_n; ++j)
+		for(int j = 0; j < n; ++j)
 			pA.get(i, j) = mat.get(i + rank * load, j);
 	if(remainder != 0 && rank == nprocs - 1)
 		for(int i = load; i < max_load; ++i)
-			for(int j = 0; j < sub_n; ++j)
+			for(int j = 0; j < n; ++j)
 				pA.get(i, j) = mat.get(i + rank * load, j);
 
 
@@ -71,18 +69,29 @@ int main(int argc, char *argv[]) {
 	int m = 10, n = 4;
 	
 	douban::mat_container<double> A(m, n);
-	douban::vec_container<double> x(n);
-	douban::vec_container<double> y(m);
+	douban::vec_container<double> x(m);
+	douban::vec_container<double> y(n/2);
+	auto Tj = make_vec(&y, 3);
 	
 	A = douban::mat_random(A.dim0(), A.dim1());
 	x = douban::vec_random(x.size());
 	
+	auto sub_A = mat_cols(A, 0, n / 2);
+	auto At = sub_A.trans();	
+	At = sub_A.trans();
+	auto xx = A.col(3);
+
+	for(int i = 0; i < m; ++i)
+		x.get(i) = xx.get(i);	
 	// function call
-	sub_task(A, x, y);
+	sub_task(At, x, y);
+
+	for(int i = 0; i < n / 2; ++i)
+		xx.get(i) = y.get(i);
 
 	// check out the result vec
 	if(rank == 0)
-		for(int i = 0; i < m; ++i)
+		for(int i = 0; i < n / 2; ++i)
 			std::cout << "result" << y.get(i) << std::endl;
 		
 	MPI_Finalize();
