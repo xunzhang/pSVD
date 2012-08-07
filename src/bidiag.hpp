@@ -182,7 +182,7 @@ void bidiag_gkl(CA && A, CD && D, CE && E, CP && P, CQ && Q) {
 template <class CAX, class CATX, class CD, class CE, class CRho, class CP, class CQ>
 void bidiag_gkl_restart(
     int locked, int l, int n,
-    CAX && Ax, CATX && Atx, CD && D, CE && E, CRho && rho, CP && P, CQ && Q) {
+    CAX && Ax, CATX && Atx, CD && D, CE && E, CRho && rho, CP && P, CQ && Q, int s_indx, int t_s_indx) {
   // enhancements version from SLEPc
   const double eta = 1.e-10;
   
@@ -192,41 +192,64 @@ void bidiag_gkl_restart(
 
   // Step 1
   // Ax(Q.col(l), P.col(l), P.dim0() > 1000);
-  auto vec_container<double> tmp(Ax.dim0());
-  
+  // size of P.col(l) is mx1
+  int recv_len = P.dim0() * nprocs;
+  vec_container<double> tmp(Ax.dim0());
+  vec_container<double> recv_tmp(recv_len);
+
   Ax(Q.col(l), tmp, P.dim0() > 1000);
- // start_indx 
-  for(int i = 0; i < tmp.size(); ++i) 
-  	P.col(l).get(i) = tmp.get(i);
-  for(int i = tmp.size(); i < P.col(l).size(); ++i) 
-  	P.col(l).get(i) = 0;
+  P.col(l) = 0;
   
-  MPI_Gatherv();
-  // Generate P.col(l)
-  
-  // Step 2
+  for(int i = s_indx; i < s_indx + Ax.dim0(); ++i)
+    P.col(l).get(i) = tmp.get(i-s_indx);
+
+  // !!! I am not sure the P.col(l) is continuously stored in memory
+  MPI_Gather(&(P.col(l)[0]), P.dim0(), MPI_DOUBLE, &recv_tmp, recv_len, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+  // Generate truly P.col(l)
   if(rank == 0) {
+    for(int i = 0; i < P.dim0(); ++i) 
+      for(int j = 1; j < nprocs; ++j)
+        recv_tmp.get(i) += recv_tmp.get(j*P.dim0()+i);
+    for(int i = 0; i < P.dim0(); ++i)
+      P.col(l).get(i) = recv_tmp.get(i);
+    
+    // Step 2 & also in rank 0
     for (int j = locked; j < l; ++j) {
       P.col(l) += -rho(j) * P.col(j);
     }
   }
-  MPI_Bcast(&P[0], P.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+   
+  // MPI_Bcast(&P[0], P.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+  // !!! I am not sure MPI_Bcast could cover the original value
+  MPI_Bcast(&(P.col(l)[0]), P.dim0(), MPI_DOUBLE, 0, MPI_COMM_WORLD); 
   
   // Main loop
   vec_container<double> T(n);
+  int recv_l = Q.dim0() * nprocs;
+  vec_container<double> recv_t(recv_l);
   for (int j = l; j < n; ++j) {
     // Step 3   
     //Atx(P.col(j), Q.col(j + 1), Q.dim0() > 1000);
-    auto vec_container<double> tmp2(Atx.dim0());
+    vec_container<double> tmp2(Atx.dim0());
     Atx(P.col(j), tmp2, Q.dim0() > 1000);
-    Q.col(j+1).get() = 0;
-    MPI_Gatherv;
+    Q.col(j+1) = 0;
+    
+    for(int i = t_s_indx; i < t_s_indx + Atx.dim0(); ++i)
+      Q.col(j+1).get(i) = tmp2.get(i-t_s_indx); 
+     
+    MPI_Gather(&(Q.col(j+1)[0]), Q.dim0(), MPI_DOUBLE, &recv_t, recv_l, MPI_DOUBLE, 0, MPI_COMM_WORLD);
      
     if(rank == 0) {
-      auto Qj = mat_cols(Q, 0, j + 1);
-      auto Tj = make_vec(&T, j + 1);
+      // Generate truly Q.col(j+1) 
+      for(int k1 = 0; k1 < Q.dim0(); ++k1)
+        for(int k2 = 0; k2 < nprocs; ++k2)
+	  recv_t.get(k1) += recv_t.get(k2*Q.dim0()+k1);
+      for(int k3 = 0; k3 < Q.dim0(); ++k3)
+        Q.col(j+1).get(k3) = recv_t.get(k3);
       
       // Step 4
+      auto Qj = mat_cols(Q, 0, j + 1);
+      auto Tj = make_vec(&T, j + 1);
       Tj.assign(gemv(Qj.trans(), Q.col(j + 1)), j >= 3);
 
       // Step 5
@@ -248,13 +271,34 @@ void bidiag_gkl_restart(
       beta = std::sqrt(beta);
       E[j] = beta;
       Q.col(j + 1).scale(1. / E[j]);
+    } 
       
-      // Step 7
-      if (j + 1 < n) {
-        Ax(Q.col(j + 1), P.col(j + 1), P.dim0() > 1000);
-        P.col(j + 1).plus_assign(- E[j] * P.col(j), P.dim0() > 1000);
+    // Step 7
+    MPI_Bcast(&(Q.col(j+1)[0]), Q.dim0(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    if (j + 1 < n) {
+      vec_container<double> tmp3(A.dim0());
+      // Ax(Q.col(j + 1), P.col(j + 1), P.dim0() > 1000);
+      Ax(Q.col(j + 1), tmp3, P.dim0() > 1000);
+      P.col(j+1) = 0;
+      
+      for(int k1 = s_indx; k1 < s_indx + Ax.dim0(); ++k1)
+        P.col(j+1).get(k1) = tmp3.get(k1-s_indx);
+      
+      MPI_Gather(&(P.col(j+1)[0]), P.dim0(), MPI_DOUBLE, &recv_tmp, recv_len, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+
+      // Gernerate truly P.col(j+1)
+      if(rank == 0) {
+        for(int k1 = 0; k1 < P.dim0(); ++k1)
+	  for(int k2 = 1; k2 < nprocs; ++k2)
+	    recv_tmp.get(k1) += recv_tmp.get(k2*P.dim0()+k1);
+	for(int k1 = 0; k1 < P.dim0(); ++k1)
+	  P.col(j+1).get(k1) = recv_tmp.get(k1);
+        
+	// the remaining opt of step7, just exec on processor 0
+	P.col(j + 1).plus_assign(- E[j] * P.col(j), P.dim0() > 1000);
       }
     }
+     
     return ;
 }
 
