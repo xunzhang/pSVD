@@ -196,11 +196,14 @@ void bidiag_gkl_restart(
   int recv_len = P.dim0() * nprocs;
   vec_container<double> tmp(Ax.dim0());
   vec_container<double> recv_tmp(recv_len);
-
-  Ax(Q.col(l), tmp, P.dim0() > 1000);
+  
+  auto m_Ax = make_gemv_ax(&Ax);
+  auto m_Atx = make_gemv_ax(&Atx);
+  //Ax(Q.col(l), tmp, P.dim0() > 1000);
+  m_Ax(Q.col(l), tmp, P.dim0() > 1000);
   P.col(l) = 0;
   
-  for(int i = s_indx; i < s_indx + Ax.dim0(); ++i)
+  for(int i = s_indx; i < s_indx + (int)Ax.dim0(); ++i)
     P.col(l).get(i) = tmp.get(i-s_indx);
 
   // !!! I am not sure the P.col(l) is continuously stored in memory
@@ -231,20 +234,21 @@ void bidiag_gkl_restart(
     // Step 3   
     //Atx(P.col(j), Q.col(j + 1), Q.dim0() > 1000);
     vec_container<double> tmp2(Atx.dim0());
-    Atx(P.col(j), tmp2, Q.dim0() > 1000);
+    //Atx(P.col(j), tmp2, Q.dim0() > 1000);
+    m_Atx(P.col(j), tmp2, Q.dim0() > 1000);
     Q.col(j+1) = 0;
     
-    for(int i = t_s_indx; i < t_s_indx + Atx.dim0(); ++i)
+    for(size_t i = t_s_indx; i < t_s_indx + Atx.dim0(); ++i)
       Q.col(j+1).get(i) = tmp2.get(i-t_s_indx); 
      
     MPI_Gather(&(Q.col(j+1)[0]), Q.dim0(), MPI_DOUBLE, &recv_t, recv_l, MPI_DOUBLE, 0, MPI_COMM_WORLD);
      
     if(rank == 0) {
       // Generate truly Q.col(j+1) 
-      for(int k1 = 0; k1 < Q.dim0(); ++k1)
-        for(int k2 = 0; k2 < nprocs; ++k2)
+      for(size_t k1 = 0; k1 < Q.dim0(); ++k1)
+        for(size_t k2 = 0; k2 < nprocs; ++k2)
 	  recv_t.get(k1) += recv_t.get(k2*Q.dim0()+k1);
-      for(int k3 = 0; k3 < Q.dim0(); ++k3)
+      for(size_t k3 = 0; k3 < Q.dim0(); ++k3)
         Q.col(j+1).get(k3) = recv_t.get(k3);
       
       // Step 4
@@ -276,30 +280,31 @@ void bidiag_gkl_restart(
     // Step 7
     MPI_Bcast(&(Q.col(j+1)[0]), Q.dim0(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
     if (j + 1 < n) {
-      vec_container<double> tmp3(A.dim0());
+      vec_container<double> tmp3(Ax.dim0());
       // Ax(Q.col(j + 1), P.col(j + 1), P.dim0() > 1000);
-      Ax(Q.col(j + 1), tmp3, P.dim0() > 1000);
+      //Ax(Q.col(j + 1), tmp3, P.dim0() > 1000);
+      m_Ax(Q.col(j + 1), tmp3, P.dim0() > 1000);
       P.col(j+1) = 0;
       
-      for(int k1 = s_indx; k1 < s_indx + Ax.dim0(); ++k1)
+      for(size_t k1 = s_indx; k1 < s_indx + Ax.dim0(); ++k1)
         P.col(j+1).get(k1) = tmp3.get(k1-s_indx);
       
       MPI_Gather(&(P.col(j+1)[0]), P.dim0(), MPI_DOUBLE, &recv_tmp, recv_len, MPI_DOUBLE, 0, MPI_COMM_WORLD);
 
       // Gernerate truly P.col(j+1)
       if(rank == 0) {
-        for(int k1 = 0; k1 < P.dim0(); ++k1)
+        for(size_t k1 = 0; k1 < P.dim0(); ++k1)
 	  for(int k2 = 1; k2 < nprocs; ++k2)
 	    recv_tmp.get(k1) += recv_tmp.get(k2*P.dim0()+k1);
-	for(int k1 = 0; k1 < P.dim0(); ++k1)
+	for(size_t k1 = 0; k1 < P.dim0(); ++k1)
 	  P.col(j+1).get(k1) = recv_tmp.get(k1);
         
 	// the remaining opt of step7, just exec on processor 0
 	P.col(j + 1).plus_assign(- E[j] * P.col(j), P.dim0() > 1000);
       }
     }
-     
-    return ;
+  }     
+  return ;
 }
 
 template <class CA, class CD, class CE, class CRho, class CP, class CQ>
