@@ -1,0 +1,2631 @@
+debug
+debug
+debug
+debug
+I am there.
+217918 200
+200 217918
+200
+nev is 200
+exp is 400
+conclusion is 217918
+I am here.
+here m is217918 and n is 217918
+0,0,0,0,0 ... 0,0,0,0,0
+bidiag_gkl_restart start
+time of step 1 is : 0.847492
+time of step 2 is : 7.8e-05
+time of step 3 is : 1.28131
+time of step 4 is : 0.075848
+before mm opt.
+time of step 5 is : 0.278611
+time of step 6 is : 0.040669
+time of step 7 is : 0.880084
+time of step 3 is : 1.31009
+time of step 4 is : 0.15689
+before mm opt.
+time of step 5 is : 0.308303
+time of step 6 is : 0.041525
+time of step 7 is : 0.811151
+time of step 3 is : 1.27175
+time of step 4 is : 0.227866
+before mm opt.
+time of step 5 is : 0.337449
+time of step 6 is : 0.061131
+time of step 7 is : 0.766365
+time of step 3 is : 1.22101
+time of step 4 is : 0.175618
+before mm opt.
+time of step 5 is : 0.385435
+time of step 6 is : 0.076067
+time of step 7 is : 0.832379
+time of step 3 is : 1.3026
+time of step 4 is : 0.133786
+before mm opt.
+time of step 5 is : 0.463957
+time of step 6 is : 0.043152
+time of step 7 is : 0.810307
+time of step 3 is : 1.31494
+time of step 4 is : 0.185802
+before mm opt.
+time of step 5 is : 0.50682
+time of step 6 is : 0.043817
+time of step 7 is : 0.769525
+time of step 3 is : 1.23608
+time of step 4 is : 0.159893
+before mm opt.
+time of step 5 is : 0.45915
+time of step 6 is : 0.045457
+time of step 7 is : 0.811761
+time of step 3 is : 1.3107
+time of step 4 is : 0.120603
+before mm opt.
+time of step 5 is : 0.555975
+time of step 6 is : 0.045826
+time of step 7 is : 0.848043
+time of step 3 is : 1.29066
+time of step 4 is : 0.302214
+before mm opt.
+time of step 5 is : 0.531134
+time of step 6 is : 0.106249
+time of step 7 is : 0.714304
+time of step 3 is : 1.27332
+time of step 4 is : 0.246064
+before mm opt.
+time of step 5 is : 0.578975
+time of step 6 is : 0.046804
+time of step 7 is : 0.707867
+time of step 3 is : 1.28769
+time of step 4 is : 0.354731
+before mm opt.
+time of step 5 is : 0.579299
+time of step 6 is : 0.043573
+time of step 7 is : 0.60865
+time of step 3 is : 1.21246
+time of step 4 is : 0.240415
+before mm opt.
+time of step 5 is : 0.567477
+time of step 6 is : 0.044927
+time of step 7 is : 0.743865
+time of step 3 is : 1.28813
+time of step 4 is : 0.344484
+before mm opt.
+time of step 5 is : 0.496413
+time of step 6 is : 0.035837
+time of step 7 is : 0.675412
+time of step 3 is : 1.36008
+time of step 4 is : 0.350603
+before mm opt.
+time of step 5 is : 0.757354
+time of step 6 is : 0.048369
+time of step 7 is : 0.73052
+time of step 3 is : 1.20186
+time of step 4 is : 0.327593
+before mm opt.
+time of step 5 is : 0.503731
+time of step 6 is : 0.033683
+time of step 7 is : 0.514215
+time of step 3 is : 1.20998
+time of step 4 is : 0.285336
+before mm opt.
+time of step 5 is : 0.70183
+time of step 6 is : 0.041814
+time of step 7 is : 0.606639
+time of step 3 is : 1.2416
+time of step 4 is : 0.457716
+before mm opt.
+time of step 5 is : 0.611493
+time of step 6 is : 0.045941
+time of step 7 is : 0.686224
+time of step 3 is : 1.25193
+time of step 4 is : 0.378161
+before mm opt.
+time of step 5 is : 0.554248
+time of step 6 is : 0.043951
+time of step 7 is : 0.777016
+time of step 3 is : 1.17886
+time of step 4 is : 0.413735
+before mm opt.
+time of step 5 is : 0.663513
+time of step 6 is : 0.080047
+time of step 7 is : 0.678991
+time of step 3 is : 1.24507
+time of step 4 is : 0.423438
+before mm opt.
+time of step 5 is : 0.804997
+time of step 6 is : 0.041643
+time of step 7 is : 0.730665
+time of step 3 is : 1.31488
+time of step 4 is : 0.399261
+before mm opt.
+time of step 5 is : 0.789815
+time of step 6 is : 0.047565
+time of step 7 is : 0.620736
+time of step 3 is : 1.19623
+time of step 4 is : 0.467201
+before mm opt.
+time of step 5 is : 0.497666
+time of step 6 is : 0.033088
+time of step 7 is : 0.62423
+time of step 3 is : 1.28635
+time of step 4 is : 0.560911
+before mm opt.
+time of step 5 is : 0.556494
+time of step 6 is : 0.034333
+time of step 7 is : 0.520183
+time of step 3 is : 1.28092
+time of step 4 is : 0.524956
+before mm opt.
+time of step 5 is : 0.556131
+time of step 6 is : 0.031494
+time of step 7 is : 0.534935
+time of step 3 is : 1.00982
+time of step 4 is : 0.534678
+before mm opt.
+time of step 5 is : 0.677277
+time of step 6 is : 0.085905
+time of step 7 is : 0.863235
+time of step 3 is : 1.50795
+time of step 4 is : 0.808848
+before mm opt.
+time of step 5 is : 0.738491
+time of step 6 is : 0.03359
+time of step 7 is : 0.799149
+time of step 3 is : 1.31982
+time of step 4 is : 0.508936
+before mm opt.
+time of step 5 is : 0.67227
+time of step 6 is : 0.032658
+time of step 7 is : 0.455266
+time of step 3 is : 1.25512
+time of step 4 is : 0.60669
+before mm opt.
+time of step 5 is : 0.57624
+time of step 6 is : 0.032065
+time of step 7 is : 0.451231
+time of step 3 is : 1.21202
+time of step 4 is : 0.527169
+before mm opt.
+time of step 5 is : 0.909503
+time of step 6 is : 0.033518
+time of step 7 is : 0.570931
+time of step 3 is : 1.33852
+time of step 4 is : 0.632481
+before mm opt.
+time of step 5 is : 0.513981
+time of step 6 is : 0.032798
+time of step 7 is : 0.49031
+time of step 3 is : 1.30122
+time of step 4 is : 0.67538
+before mm opt.
+time of step 5 is : 0.687883
+time of step 6 is : 0.035468
+time of step 7 is : 0.73087
+time of step 3 is : 1.31771
+time of step 4 is : 0.68145
+before mm opt.
+time of step 5 is : 0.550661
+time of step 6 is : 0.034653
+time of step 7 is : 0.571265
+time of step 3 is : 1.33912
+time of step 4 is : 0.9292
+before mm opt.
+time of step 5 is : 1.02186
+time of step 6 is : 0.032978
+time of step 7 is : 0.766297
+time of step 3 is : 1.24543
+time of step 4 is : 0.734094
+before mm opt.
+time of step 5 is : 0.709887
+time of step 6 is : 0.03418
+time of step 7 is : 0.65064
+time of step 3 is : 1.26171
+time of step 4 is : 0.703789
+before mm opt.
+time of step 5 is : 0.640568
+time of step 6 is : 0.033402
+time of step 7 is : 0.513917
+time of step 3 is : 1.22509
+time of step 4 is : 0.703986
+before mm opt.
+time of step 5 is : 0.855349
+time of step 6 is : 0.041913
+time of step 7 is : 0.69621
+time of step 3 is : 1.06476
+time of step 4 is : 0.769439
+before mm opt.
+time of step 5 is : 0.750044
+time of step 6 is : 0.036012
+time of step 7 is : 0.469957
+time of step 3 is : 1.29966
+time of step 4 is : 0.873033
+before mm opt.
+time of step 5 is : 0.73317
+time of step 6 is : 0.0334
+time of step 7 is : 0.619457
+time of step 3 is : 1.31739
+time of step 4 is : 0.882098
+before mm opt.
+time of step 5 is : 0.660748
+time of step 6 is : 0.037139
+time of step 7 is : 0.590017
+time of step 3 is : 1.30777
+time of step 4 is : 0.735334
+before mm opt.
+time of step 5 is : 0.666231
+time of step 6 is : 0.063483
+time of step 7 is : 0.721616
+time of step 3 is : 1.30078
+time of step 4 is : 1.05196
+before mm opt.
+time of step 5 is : 1.08434
+time of step 6 is : 0.035872
+time of step 7 is : 0.73277
+time of step 3 is : 1.27052
+time of step 4 is : 0.869006
+before mm opt.
+time of step 5 is : 0.669586
+time of step 6 is : 0.035389
+time of step 7 is : 0.50033
+time of step 3 is : 1.33053
+time of step 4 is : 0.861798
+before mm opt.
+time of step 5 is : 1.11352
+time of step 6 is : 0.034232
+time of step 7 is : 0.678334
+time of step 3 is : 1.30325
+time of step 4 is : 0.906299
+before mm opt.
+time of step 5 is : 0.699905
+time of step 6 is : 0.037366
+time of step 7 is : 0.519731
+time of step 3 is : 1.2892
+time of step 4 is : 0.905877
+before mm opt.
+time of step 5 is : 0.791447
+time of step 6 is : 0.033816
+time of step 7 is : 0.505092
+time of step 3 is : 1.31498
+time of step 4 is : 0.866476
+before mm opt.
+time of step 5 is : 0.793576
+time of step 6 is : 0.033062
+time of step 7 is : 0.464129
+time of step 3 is : 1.29174
+time of step 4 is : 0.810127
+before mm opt.
+time of step 5 is : 0.670371
+time of step 6 is : 0.032808
+time of step 7 is : 0.515084
+time of step 3 is : 1.2272
+time of step 4 is : 0.913573
+before mm opt.
+time of step 5 is : 0.837149
+time of step 6 is : 0.033841
+time of step 7 is : 0.538394
+time of step 3 is : 1.30861
+time of step 4 is : 0.989045
+before mm opt.
+time of step 5 is : 1.17751
+time of step 6 is : 0.073701
+time of step 7 is : 0.5103
+time of step 3 is : 1.25355
+time of step 4 is : 1.01168
+before mm opt.
+time of step 5 is : 0.690604
+time of step 6 is : 0.033021
+time of step 7 is : 0.49894
+time of step 3 is : 1.27314
+time of step 4 is : 0.937009
+before mm opt.
+time of step 5 is : 1.159
+time of step 6 is : 0.06234
+time of step 7 is : 0.566952
+time of step 3 is : 1.2559
+time of step 4 is : 0.974683
+before mm opt.
+time of step 5 is : 0.896975
+time of step 6 is : 0.036856
+time of step 7 is : 0.748377
+time of step 3 is : 1.30567
+time of step 4 is : 1.27266
+before mm opt.
+time of step 5 is : 0.861044
+time of step 6 is : 0.038923
+time of step 7 is : 0.513563
+time of step 3 is : 1.28687
+time of step 4 is : 1.09675
+before mm opt.
+time of step 5 is : 0.882117
+time of step 6 is : 0.032727
+time of step 7 is : 0.59084
+time of step 3 is : 1.23921
+time of step 4 is : 1.01747
+before mm opt.
+time of step 5 is : 1.00163
+time of step 6 is : 0.063538
+time of step 7 is : 0.64419
+time of step 3 is : 1.2219
+time of step 4 is : 0.983715
+before mm opt.
+time of step 5 is : 1.13914
+time of step 6 is : 0.032941
+time of step 7 is : 0.577071
+time of step 3 is : 1.37322
+time of step 4 is : 1.07965
+before mm opt.
+time of step 5 is : 1.14436
+time of step 6 is : 0.04766
+time of step 7 is : 0.493103
+time of step 3 is : 1.21574
+time of step 4 is : 0.938906
+before mm opt.
+time of step 5 is : 0.938644
+time of step 6 is : 0.035805
+time of step 7 is : 0.683537
+time of step 3 is : 1.4591
+time of step 4 is : 1.4002
+before mm opt.
+time of step 5 is : 1.17233
+time of step 6 is : 0.06331
+time of step 7 is : 0.57025
+time of step 3 is : 1.25248
+time of step 4 is : 1.07849
+before mm opt.
+time of step 5 is : 1.23961
+time of step 6 is : 0.048931
+time of step 7 is : 0.506601
+time of step 3 is : 1.32962
+time of step 4 is : 1.04567
+before mm opt.
+time of step 5 is : 0.981984
+time of step 6 is : 0.055431
+time of step 7 is : 0.760371
+time of step 3 is : 1.36137
+time of step 4 is : 1.48644
+before mm opt.
+time of step 5 is : 1.17002
+time of step 6 is : 0.042872
+time of step 7 is : 0.610486
+time of step 3 is : 1.28079
+time of step 4 is : 1.20419
+before mm opt.
+time of step 5 is : 0.955191
+time of step 6 is : 0.032469
+time of step 7 is : 0.464035
+time of step 3 is : 1.30923
+time of step 4 is : 1.15455
+before mm opt.
+time of step 5 is : 1.35782
+time of step 6 is : 0.039226
+time of step 7 is : 0.948337
+time of step 3 is : 1.33992
+time of step 4 is : 1.25975
+before mm opt.
+time of step 5 is : 1.21323
+time of step 6 is : 0.058064
+time of step 7 is : 0.8625
+time of step 3 is : 1.40682
+time of step 4 is : 1.60504
+before mm opt.
+time of step 5 is : 1.59714
+time of step 6 is : 0.033788
+time of step 7 is : 0.743885
+time of step 3 is : 1.22285
+time of step 4 is : 1.18026
+before mm opt.
+time of step 5 is : 1.23517
+time of step 6 is : 0.035745
+time of step 7 is : 0.723825
+time of step 3 is : 1.28
+time of step 4 is : 1.40993
+before mm opt.
+time of step 5 is : 1.01696
+time of step 6 is : 0.032937
+time of step 7 is : 0.648489
+time of step 3 is : 1.26802
+time of step 4 is : 1.41899
+before mm opt.
+time of step 5 is : 1.44763
+time of step 6 is : 0.038665
+time of step 7 is : 0.777366
+time of step 3 is : 1.50129
+time of step 4 is : 1.51136
+before mm opt.
+time of step 5 is : 1.61565
+time of step 6 is : 0.06648
+time of step 7 is : 0.956701
+time of step 3 is : 1.39817
+time of step 4 is : 1.291
+before mm opt.
+time of step 5 is : 1.10128
+time of step 6 is : 0.033611
+time of step 7 is : 0.522424
+time of step 3 is : 1.2325
+time of step 4 is : 1.3391
+before mm opt.
+time of step 5 is : 1.13551
+time of step 6 is : 0.033828
+time of step 7 is : 0.479493
+time of step 3 is : 1.36509
+time of step 4 is : 1.14698
+before mm opt.
+time of step 5 is : 1.04417
+time of step 6 is : 0.032147
+time of step 7 is : 0.483133
+time of step 3 is : 1.27682
+time of step 4 is : 1.15039
+before mm opt.
+time of step 5 is : 1.0289
+time of step 6 is : 0.032277
+time of step 7 is : 0.653179
+time of step 3 is : 1.08837
+time of step 4 is : 1.04661
+before mm opt.
+time of step 5 is : 0.994881
+time of step 6 is : 0.051931
+time of step 7 is : 0.48759
+time of step 3 is : 1.24984
+time of step 4 is : 1.23069
+before mm opt.
+time of step 5 is : 1.22764
+time of step 6 is : 0.037016
+time of step 7 is : 0.632906
+time of step 3 is : 1.02996
+time of step 4 is : 1.0826
+before mm opt.
+time of step 5 is : 1.21023
+time of step 6 is : 0.063148
+time of step 7 is : 0.607645
+time of step 3 is : 1.26596
+time of step 4 is : 1.64867
+before mm opt.
+time of step 5 is : 1.5519
+time of step 6 is : 0.108622
+time of step 7 is : 0.548601
+time of step 3 is : 1.2902
+time of step 4 is : 1.36319
+before mm opt.
+time of step 5 is : 1.02678
+time of step 6 is : 0.033714
+time of step 7 is : 0.487096
+time of step 3 is : 1.24067
+time of step 4 is : 1.8722
+before mm opt.
+time of step 5 is : 1.52622
+time of step 6 is : 0.050755
+time of step 7 is : 0.718648
+time of step 3 is : 1.37098
+time of step 4 is : 1.26003
+before mm opt.
+time of step 5 is : 1.14755
+time of step 6 is : 0.032371
+time of step 7 is : 0.473705
+time of step 3 is : 1.29554
+time of step 4 is : 1.33389
+before mm opt.
+time of step 5 is : 1.19398
+time of step 6 is : 0.032755
+time of step 7 is : 0.562405
+time of step 3 is : 1.22016
+time of step 4 is : 1.3834
+before mm opt.
+time of step 5 is : 1.20711
+time of step 6 is : 0.032794
+time of step 7 is : 0.535349
+time of step 3 is : 1.30758
+time of step 4 is : 1.20806
+before mm opt.
+time of step 5 is : 1.10955
+time of step 6 is : 0.032311
+time of step 7 is : 0.454793
+time of step 3 is : 1.1163
+time of step 4 is : 1.52402
+before mm opt.
+time of step 5 is : 1.34666
+time of step 6 is : 0.045169
+time of step 7 is : 0.79442
+time of step 3 is : 1.75503
+time of step 4 is : 1.53185
+before mm opt.
+time of step 5 is : 1.56848
+time of step 6 is : 0.096887
+time of step 7 is : 0.518333
+time of step 3 is : 1.29903
+time of step 4 is : 1.39257
+before mm opt.
+time of step 5 is : 1.15259
+time of step 6 is : 0.032705
+time of step 7 is : 0.468863
+time of step 3 is : 1.25945
+time of step 4 is : 1.35686
+before mm opt.
+time of step 5 is : 1.16455
+time of step 6 is : 0.032938
+time of step 7 is : 0.684239
+time of step 3 is : 1.29024
+time of step 4 is : 1.44405
+before mm opt.
+time of step 5 is : 1.10181
+time of step 6 is : 0.034146
+time of step 7 is : 0.629321
+time of step 3 is : 1.29919
+time of step 4 is : 1.65013
+before mm opt.
+time of step 5 is : 1.1989
+time of step 6 is : 0.034682
+time of step 7 is : 0.716026
+time of step 3 is : 1.3823
+time of step 4 is : 1.57645
+before mm opt.
+time of step 5 is : 1.47085
+time of step 6 is : 0.044863
+time of step 7 is : 0.857779
+time of step 3 is : 1.37446
+time of step 4 is : 1.87674
+before mm opt.
+time of step 5 is : 1.30564
+time of step 6 is : 0.04574
+time of step 7 is : 0.655299
+time of step 3 is : 1.27014
+time of step 4 is : 1.78221
+before mm opt.
+time of step 5 is : 1.64743
+time of step 6 is : 0.032445
+time of step 7 is : 0.559689
+time of step 3 is : 1.2835
+time of step 4 is : 1.45041
+before mm opt.
+time of step 5 is : 1.27889
+time of step 6 is : 0.032268
+time of step 7 is : 0.632773
+time of step 3 is : 1.26455
+time of step 4 is : 1.53962
+before mm opt.
+time of step 5 is : 1.27846
+time of step 6 is : 0.033871
+time of step 7 is : 0.649926
+time of step 3 is : 1.28593
+time of step 4 is : 1.48785
+before mm opt.
+time of step 5 is : 1.30932
+time of step 6 is : 0.137862
+time of step 7 is : 0.677625
+time of step 3 is : 1.35961
+time of step 4 is : 1.64165
+before mm opt.
+time of step 5 is : 1.72957
+time of step 6 is : 0.035121
+time of step 7 is : 0.778326
+time of step 3 is : 1.3242
+time of step 4 is : 1.55259
+before mm opt.
+time of step 5 is : 1.47219
+time of step 6 is : 0.032433
+time of step 7 is : 0.507864
+time of step 3 is : 1.3176
+time of step 4 is : 1.91636
+before mm opt.
+time of step 5 is : 1.44759
+time of step 6 is : 0.032926
+time of step 7 is : 0.471799
+time of step 3 is : 1.3358
+time of step 4 is : 2.00701
+before mm opt.
+time of step 5 is : 1.6795
+time of step 6 is : 0.087286
+time of step 7 is : 0.56557
+time of step 3 is : 1.25165
+time of step 4 is : 1.61569
+before mm opt.
+time of step 5 is : 1.3278
+time of step 6 is : 0.036983
+time of step 7 is : 0.494407
+time of step 3 is : 1.35469
+time of step 4 is : 1.46568
+before mm opt.
+time of step 5 is : 1.37658
+time of step 6 is : 0.033924
+time of step 7 is : 0.509065
+time of step 3 is : 1.22928
+time of step 4 is : 1.81255
+before mm opt.
+time of step 5 is : 1.52752
+time of step 6 is : 0.032416
+time of step 7 is : 0.65442
+time of step 3 is : 1.2816
+time of step 4 is : 1.9056
+before mm opt.
+time of step 5 is : 1.51595
+time of step 6 is : 0.036895
+time of step 7 is : 0.5883
+time of step 3 is : 1.24829
+time of step 4 is : 1.71055
+before mm opt.
+time of step 5 is : 1.53603
+time of step 6 is : 0.062572
+time of step 7 is : 0.548691
+time of step 3 is : 1.27238
+time of step 4 is : 1.79652
+before mm opt.
+time of step 5 is : 1.59823
+time of step 6 is : 0.032373
+time of step 7 is : 0.4754
+time of step 3 is : 1.31077
+time of step 4 is : 1.65602
+before mm opt.
+time of step 5 is : 1.49233
+time of step 6 is : 0.032947
+time of step 7 is : 0.564059
+time of step 3 is : 1.26332
+time of step 4 is : 1.82063
+before mm opt.
+time of step 5 is : 2.2931
+time of step 6 is : 0.040089
+time of step 7 is : 0.564595
+time of step 3 is : 1.31757
+time of step 4 is : 2.86443
+before mm opt.
+time of step 5 is : 2.07823
+time of step 6 is : 0.032593
+time of step 7 is : 0.911834
+time of step 3 is : 1.45565
+time of step 4 is : 1.85319
+before mm opt.
+time of step 5 is : 1.60603
+time of step 6 is : 0.062525
+time of step 7 is : 0.526288
+time of step 3 is : 1.24484
+time of step 4 is : 1.74504
+before mm opt.
+time of step 5 is : 1.50068
+time of step 6 is : 0.034211
+time of step 7 is : 0.537589
+time of step 3 is : 1.37955
+time of step 4 is : 1.79461
+before mm opt.
+time of step 5 is : 1.57544
+time of step 6 is : 0.032612
+time of step 7 is : 0.457136
+time of step 3 is : 1.27052
+time of step 4 is : 1.79833
+before mm opt.
+time of step 5 is : 1.83383
+time of step 6 is : 0.035396
+time of step 7 is : 0.4785
+time of step 3 is : 1.40651
+time of step 4 is : 1.84242
+before mm opt.
+time of step 5 is : 1.51472
+time of step 6 is : 0.036238
+time of step 7 is : 0.631747
+time of step 3 is : 1.33621
+time of step 4 is : 2.00729
+before mm opt.
+time of step 5 is : 2.00895
+time of step 6 is : 0.032789
+time of step 7 is : 0.706574
+time of step 3 is : 1.28897
+time of step 4 is : 1.96698
+before mm opt.
+time of step 5 is : 1.90964
+time of step 6 is : 0.035369
+time of step 7 is : 0.474982
+time of step 3 is : 1.24992
+time of step 4 is : 1.96563
+before mm opt.
+time of step 5 is : 1.65687
+time of step 6 is : 0.03249
+time of step 7 is : 0.564413
+time of step 3 is : 1.23556
+time of step 4 is : 1.83485
+before mm opt.
+time of step 5 is : 1.62308
+time of step 6 is : 0.035027
+time of step 7 is : 0.570591
+time of step 3 is : 1.36615
+time of step 4 is : 1.77008
+before mm opt.
+time of step 5 is : 1.59702
+time of step 6 is : 0.032333
+time of step 7 is : 0.607781
+time of step 3 is : 1.34607
+time of step 4 is : 2.02206
+before mm opt.
+time of step 5 is : 1.78283
+time of step 6 is : 0.03457
+time of step 7 is : 0.576853
+time of step 3 is : 1.32837
+time of step 4 is : 1.91376
+before mm opt.
+time of step 5 is : 1.50126
+time of step 6 is : 0.064897
+time of step 7 is : 0.520169
+time of step 3 is : 1.34804
+time of step 4 is : 1.75618
+before mm opt.
+time of step 5 is : 1.67354
+time of step 6 is : 0.064156
+time of step 7 is : 0.607327
+time of step 3 is : 1.19198
+time of step 4 is : 1.61943
+before mm opt.
+time of step 5 is : 1.53703
+time of step 6 is : 0.033221
+time of step 7 is : 0.636806
+time of step 3 is : 1.39967
+time of step 4 is : 1.99143
+before mm opt.
+time of step 5 is : 1.65469
+time of step 6 is : 0.032955
+time of step 7 is : 0.67198
+time of step 3 is : 1.35063
+time of step 4 is : 1.99083
+before mm opt.
+time of step 5 is : 1.58139
+time of step 6 is : 0.032612
+time of step 7 is : 0.725227
+time of step 3 is : 1.30656
+time of step 4 is : 1.92093
+before mm opt.
+time of step 5 is : 1.66333
+time of step 6 is : 0.033923
+time of step 7 is : 0.559157
+time of step 3 is : 1.31581
+time of step 4 is : 1.91219
+before mm opt.
+time of step 5 is : 1.64896
+time of step 6 is : 0.0539
+time of step 7 is : 0.565707
+time of step 3 is : 1.27623
+time of step 4 is : 2.16675
+before mm opt.
+time of step 5 is : 1.95736
+time of step 6 is : 0.033295
+time of step 7 is : 0.685223
+time of step 3 is : 1.26755
+time of step 4 is : 1.86442
+before mm opt.
+time of step 5 is : 1.64298
+time of step 6 is : 0.03215
+time of step 7 is : 0.498001
+time of step 3 is : 1.22943
+time of step 4 is : 2.05882
+before mm opt.
+time of step 5 is : 1.87629
+time of step 6 is : 0.041894
+time of step 7 is : 0.785267
+time of step 3 is : 1.33515
+time of step 4 is : 2.16975
+before mm opt.
+time of step 5 is : 1.85536
+time of step 6 is : 0.032793
+time of step 7 is : 0.446894
+time of step 3 is : 1.26665
+time of step 4 is : 1.94293
+before mm opt.
+time of step 5 is : 1.69983
+time of step 6 is : 0.032312
+time of step 7 is : 0.559863
+time of step 3 is : 1.28863
+time of step 4 is : 2.4609
+before mm opt.
+time of step 5 is : 2.09289
+time of step 6 is : 0.033748
+time of step 7 is : 0.548715
+time of step 3 is : 1.2787
+time of step 4 is : 2.32282
+before mm opt.
+time of step 5 is : 2.01635
+time of step 6 is : 0.032393
+time of step 7 is : 0.501576
+time of step 3 is : 1.22423
+time of step 4 is : 2.28944
+before mm opt.
+time of step 5 is : 1.89164
+time of step 6 is : 0.032847
+time of step 7 is : 0.478473
+time of step 3 is : 1.29657
+time of step 4 is : 2.37283
+before mm opt.
+time of step 5 is : 2.06376
+time of step 6 is : 0.033425
+time of step 7 is : 0.48427
+time of step 3 is : 1.27604
+time of step 4 is : 2.0748
+before mm opt.
+time of step 5 is : 1.79346
+time of step 6 is : 0.033344
+time of step 7 is : 0.49473
+time of step 3 is : 1.34409
+time of step 4 is : 1.97992
+before mm opt.
+time of step 5 is : 1.93186
+time of step 6 is : 0.032317
+time of step 7 is : 0.67048
+time of step 3 is : 1.22158
+time of step 4 is : 2.28452
+before mm opt.
+time of step 5 is : 2.22752
+time of step 6 is : 0.042186
+time of step 7 is : 0.694341
+time of step 3 is : 1.28856
+time of step 4 is : 2.79546
+before mm opt.
+time of step 5 is : 2.14677
+time of step 6 is : 0.032906
+time of step 7 is : 0.881566
+time of step 3 is : 1.39434
+time of step 4 is : 2.12214
+before mm opt.
+time of step 5 is : 1.64323
+time of step 6 is : 0.032779
+time of step 7 is : 0.621074
+time of step 3 is : 1.31868
+time of step 4 is : 2.49621
+before mm opt.
+time of step 5 is : 2.27
+time of step 6 is : 0.032342
+time of step 7 is : 0.746854
+time of step 3 is : 1.40385
+time of step 4 is : 2.39589
+before mm opt.
+time of step 5 is : 2.10826
+time of step 6 is : 0.055323
+time of step 7 is : 0.507051
+time of step 3 is : 1.2507
+time of step 4 is : 2.37176
+before mm opt.
+time of step 5 is : 2.1801
+time of step 6 is : 0.033299
+time of step 7 is : 0.709538
+time of step 3 is : 1.40336
+time of step 4 is : 2.30536
+before mm opt.
+time of step 5 is : 1.95573
+time of step 6 is : 0.036907
+time of step 7 is : 0.541711
+time of step 3 is : 1.39985
+time of step 4 is : 2.29045
+before mm opt.
+time of step 5 is : 1.95743
+time of step 6 is : 0.062489
+time of step 7 is : 0.615033
+time of step 3 is : 1.32916
+time of step 4 is : 2.47117
+before mm opt.
+time of step 5 is : 1.94366
+time of step 6 is : 0.032873
+time of step 7 is : 0.521912
+time of step 3 is : 1.2308
+time of step 4 is : 2.68959
+before mm opt.
+time of step 5 is : 2.34526
+time of step 6 is : 0.040854
+time of step 7 is : 0.768111
+time of step 3 is : 1.34417
+time of step 4 is : 3.36233
+before mm opt.
+time of step 5 is : 2.55682
+time of step 6 is : 0.036463
+time of step 7 is : 0.854269
+time of step 3 is : 1.40171
+time of step 4 is : 2.20396
+before mm opt.
+time of step 5 is : 1.94205
+time of step 6 is : 0.03721
+time of step 7 is : 0.671428
+time of step 3 is : 1.39161
+time of step 4 is : 2.45434
+before mm opt.
+time of step 5 is : 2.11498
+time of step 6 is : 0.033228
+time of step 7 is : 0.772976
+time of step 3 is : 1.45737
+time of step 4 is : 2.41811
+before mm opt.
+time of step 5 is : 2.32733
+time of step 6 is : 0.033606
+time of step 7 is : 0.725198
+time of step 3 is : 1.44383
+time of step 4 is : 2.38338
+before mm opt.
+time of step 5 is : 2.1925
+time of step 6 is : 0.038498
+time of step 7 is : 0.64382
+time of step 3 is : 1.39264
+time of step 4 is : 2.68818
+before mm opt.
+time of step 5 is : 2.02747
+time of step 6 is : 0.032881
+time of step 7 is : 0.544771
+time of step 3 is : 1.24293
+time of step 4 is : 2.39443
+before mm opt.
+time of step 5 is : 2.07169
+time of step 6 is : 0.035976
+time of step 7 is : 0.602981
+time of step 3 is : 1.42594
+time of step 4 is : 2.63711
+before mm opt.
+time of step 5 is : 2.28212
+time of step 6 is : 0.039904
+time of step 7 is : 0.693453
+time of step 3 is : 1.24217
+time of step 4 is : 2.4772
+before mm opt.
+time of step 5 is : 2.16257
+time of step 6 is : 0.033323
+time of step 7 is : 0.505527
+time of step 3 is : 1.28758
+time of step 4 is : 2.38323
+before mm opt.
+time of step 5 is : 2.11622
+time of step 6 is : 0.03513
+time of step 7 is : 0.612067
+time of step 3 is : 1.31844
+time of step 4 is : 2.22837
+before mm opt.
+time of step 5 is : 1.93119
+time of step 6 is : 0.036357
+time of step 7 is : 0.505951
+time of step 3 is : 1.33103
+time of step 4 is : 2.46609
+before mm opt.
+time of step 5 is : 2.15383
+time of step 6 is : 0.032479
+time of step 7 is : 0.511051
+time of step 3 is : 1.339
+time of step 4 is : 2.34776
+before mm opt.
+time of step 5 is : 2.04387
+time of step 6 is : 0.096103
+time of step 7 is : 0.59509
+time of step 3 is : 1.36078
+time of step 4 is : 2.27302
+before mm opt.
+time of step 5 is : 2.17902
+time of step 6 is : 0.032631
+time of step 7 is : 0.702976
+time of step 3 is : 1.29005
+time of step 4 is : 2.38836
+before mm opt.
+time of step 5 is : 2.19041
+time of step 6 is : 0.033405
+time of step 7 is : 0.471579
+time of step 3 is : 1.35464
+time of step 4 is : 2.27655
+before mm opt.
+time of step 5 is : 2.05312
+time of step 6 is : 0.034597
+time of step 7 is : 0.661499
+time of step 3 is : 1.32426
+time of step 4 is : 2.45715
+before mm opt.
+time of step 5 is : 2.04634
+time of step 6 is : 0.032546
+time of step 7 is : 0.449862
+time of step 3 is : 1.30239
+time of step 4 is : 2.61171
+before mm opt.
+time of step 5 is : 2.08535
+time of step 6 is : 0.034709
+time of step 7 is : 0.446053
+time of step 3 is : 1.31856
+time of step 4 is : 2.46399
+before mm opt.
+time of step 5 is : 2.02939
+time of step 6 is : 0.033941
+time of step 7 is : 0.475496
+time of step 3 is : 1.29226
+time of step 4 is : 2.78593
+before mm opt.
+time of step 5 is : 2.09493
+time of step 6 is : 0.032651
+time of step 7 is : 0.449161
+time of step 3 is : 1.32415
+time of step 4 is : 2.10658
+before mm opt.
+time of step 5 is : 2.02313
+time of step 6 is : 0.033243
+time of step 7 is : 0.60612
+time of step 3 is : 1.02986
+time of step 4 is : 2.36609
+before mm opt.
+time of step 5 is : 2.03129
+time of step 6 is : 0.032361
+time of step 7 is : 0.528437
+time of step 3 is : 1.02573
+time of step 4 is : 2.51607
+before mm opt.
+time of step 5 is : 2.29404
+time of step 6 is : 0.036948
+time of step 7 is : 0.63909
+time of step 3 is : 1.3151
+time of step 4 is : 2.46936
+before mm opt.
+time of step 5 is : 2.18045
+time of step 6 is : 0.03383
+time of step 7 is : 0.659468
+time of step 3 is : 1.28651
+time of step 4 is : 2.46581
+before mm opt.
+time of step 5 is : 2.1486
+time of step 6 is : 0.032011
+time of step 7 is : 0.517094
+time of step 3 is : 1.22153
+time of step 4 is : 2.60485
+before mm opt.
+time of step 5 is : 2.39153
+time of step 6 is : 0.039079
+time of step 7 is : 0.744085
+time of step 3 is : 1.26643
+time of step 4 is : 2.9134
+before mm opt.
+time of step 5 is : 2.65797
+time of step 6 is : 0.036189
+time of step 7 is : 0.531091
+time of step 3 is : 1.34659
+time of step 4 is : 2.65765
+before mm opt.
+time of step 5 is : 2.19978
+time of step 6 is : 0.033001
+time of step 7 is : 0.532346
+time of step 3 is : 1.32173
+time of step 4 is : 2.52934
+before mm opt.
+time of step 5 is : 2.14911
+time of step 6 is : 0.03613
+time of step 7 is : 0.55115
+time of step 3 is : 1.37332
+time of step 4 is : 2.68136
+before mm opt.
+time of step 5 is : 2.1797
+time of step 6 is : 0.062784
+time of step 7 is : 0.667243
+time of step 3 is : 1.44086
+time of step 4 is : 2.75952
+before mm opt.
+time of step 5 is : 2.47881
+time of step 6 is : 0.034569
+time of step 7 is : 0.507006
+time of step 3 is : 1.2699
+time of step 4 is : 2.6479
+before mm opt.
+time of step 5 is : 2.50019
+time of step 6 is : 0.032514
+time of step 7 is : 0.556311
+time of step 3 is : 1.1244
+time of step 4 is : 3.39464
+before mm opt.
+time of step 5 is : 2.89411
+time of step 6 is : 0.033685
+time of step 7 is : 0.650916
+time of step 3 is : 1.36557
+time of step 4 is : 2.70595
+before mm opt.
+time of step 5 is : 2.4829
+time of step 6 is : 0.033947
+time of step 7 is : 0.496953
+time of step 3 is : 1.30347
+time of step 4 is : 2.48446
+before mm opt.
+time of step 5 is : 2.22889
+time of step 6 is : 0.035957
+time of step 7 is : 0.523527
+time of step 3 is : 1.38165
+time of step 4 is : 2.48978
+before mm opt.
+time of step 5 is : 2.06985
+time of step 6 is : 0.032894
+time of step 7 is : 0.634444
+time of step 3 is : 1.22749
+time of step 4 is : 2.92688
+before mm opt.
+time of step 5 is : 2.59292
+time of step 6 is : 0.032466
+time of step 7 is : 0.614187
+time of step 3 is : 1.3727
+time of step 4 is : 3.01854
+before mm opt.
+time of step 5 is : 2.46502
+time of step 6 is : 0.038612
+time of step 7 is : 0.667682
+time of step 3 is : 1.17556
+time of step 4 is : 2.59727
+before mm opt.
+time of step 5 is : 2.21031
+time of step 6 is : 0.034263
+time of step 7 is : 0.739812
+time of step 3 is : 1.30601
+time of step 4 is : 2.76688
+before mm opt.
+time of step 5 is : 2.39363
+time of step 6 is : 0.039326
+time of step 7 is : 0.563871
+time of step 3 is : 1.33512
+time of step 4 is : 3.67627
+before mm opt.
+time of step 5 is : 2.82094
+time of step 6 is : 0.034367
+time of step 7 is : 0.569536
+time of step 3 is : 1.40898
+time of step 4 is : 2.62541
+before mm opt.
+time of step 5 is : 2.14657
+time of step 6 is : 0.032728
+time of step 7 is : 0.495253
+time of step 3 is : 1.37132
+time of step 4 is : 2.61176
+before mm opt.
+time of step 5 is : 2.30952
+time of step 6 is : 0.033266
+time of step 7 is : 0.625839
+time of step 3 is : 1.33161
+time of step 4 is : 2.60754
+before mm opt.
+time of step 5 is : 2.33146
+time of step 6 is : 0.034077
+time of step 7 is : 0.583015
+time of step 3 is : 1.28094
+time of step 4 is : 2.72487
+before mm opt.
+time of step 5 is : 2.32074
+time of step 6 is : 0.033178
+time of step 7 is : 0.575646
+time of step 3 is : 1.24724
+time of step 4 is : 3.07776
+before mm opt.
+time of step 5 is : 2.4148
+time of step 6 is : 0.03611
+time of step 7 is : 0.611234
+time of step 3 is : 1.29739
+time of step 4 is : 2.91967
+before mm opt.
+time of step 5 is : 2.51909
+time of step 6 is : 0.035985
+time of step 7 is : 0.682634
+time of step 3 is : 1.30808
+time of step 4 is : 2.86021
+before mm opt.
+time of step 5 is : 2.41213
+time of step 6 is : 0.070343
+time of step 7 is : 0.54291
+time of step 3 is : 1.41573
+time of step 4 is : 3.12617
+before mm opt.
+time of step 5 is : 2.76939
+time of step 6 is : 0.03884
+time of step 7 is : 0.770411
+time of step 3 is : 1.31774
+time of step 4 is : 2.95405
+before mm opt.
+time of step 5 is : 2.50932
+time of step 6 is : 0.041811
+time of step 7 is : 0.494138
+time of step 3 is : 1.30229
+time of step 4 is : 3.04579
+before mm opt.
+time of step 5 is : 2.55466
+time of step 6 is : 0.032417
+time of step 7 is : 0.531598
+time of step 3 is : 0.998413
+time of step 4 is : 2.74301
+before mm opt.
+time of step 5 is : 2.59224
+time of step 6 is : 0.033893
+time of step 7 is : 0.621078
+time of step 3 is : 1.25958
+time of step 4 is : 2.86293
+before mm opt.
+time of step 5 is : 2.48565
+time of step 6 is : 0.032596
+time of step 7 is : 0.681225
+time of step 3 is : 1.32381
+time of step 4 is : 2.92914
+before mm opt.
+time of step 5 is : 2.43336
+time of step 6 is : 0.032958
+time of step 7 is : 0.689663
+time of step 3 is : 1.16745
+time of step 4 is : 3.3344
+before mm opt.
+time of step 5 is : 2.75772
+time of step 6 is : 0.034132
+time of step 7 is : 0.642708
+time of step 3 is : 1.31887
+time of step 4 is : 2.7364
+before mm opt.
+time of step 5 is : 2.29084
+time of step 6 is : 0.032458
+time of step 7 is : 0.607878
+time of step 3 is : 1.2872
+time of step 4 is : 2.81962
+before mm opt.
+time of step 5 is : 2.41122
+time of step 6 is : 0.033196
+time of step 7 is : 0.577093
+time of step 3 is : 1.33093
+time of step 4 is : 2.86863
+before mm opt.
+time of step 5 is : 2.51903
+time of step 6 is : 0.032967
+time of step 7 is : 0.496758
+time of step 3 is : 1.23258
+time of step 4 is : 2.82546
+before mm opt.
+time of step 5 is : 2.45029
+time of step 6 is : 0.032474
+time of step 7 is : 0.636884
+time of step 3 is : 1.38501
+time of step 4 is : 2.92769
+before mm opt.
+time of step 5 is : 2.47551
+time of step 6 is : 0.032352
+time of step 7 is : 0.498498
+time of step 3 is : 1.21845
+time of step 4 is : 3.1157
+before mm opt.
+time of step 5 is : 2.91976
+time of step 6 is : 0.037212
+time of step 7 is : 0.928763
+time of step 3 is : 1.22192
+time of step 4 is : 3.1804
+before mm opt.
+time of step 5 is : 2.88708
+time of step 6 is : 0.032859
+time of step 7 is : 0.753477
+time of step 3 is : 1.36844
+time of step 4 is : 2.98507
+before mm opt.
+time of step 5 is : 2.49939
+time of step 6 is : 0.033742
+time of step 7 is : 0.651865
+time of step 3 is : 1.32831
+time of step 4 is : 3.16368
+before mm opt.
+time of step 5 is : 2.68559
+time of step 6 is : 0.041715
+time of step 7 is : 0.846236
+time of step 3 is : 1.51753
+time of step 4 is : 4.02435
+before mm opt.
+time of step 5 is : 3.24514
+time of step 6 is : 0.037019
+time of step 7 is : 0.803355
+time of step 3 is : 1.35972
+time of step 4 is : 3.27524
+before mm opt.
+time of step 5 is : 2.57559
+time of step 6 is : 0.048194
+time of step 7 is : 0.533324
+time of step 3 is : 1.31828
+time of step 4 is : 2.85129
+before mm opt.
+time of step 5 is : 2.36219
+time of step 6 is : 0.039813
+time of step 7 is : 0.512146
+time of step 3 is : 1.19745
+time of step 4 is : 2.91955
+before mm opt.
+time of step 5 is : 2.48048
+time of step 6 is : 0.060087
+time of step 7 is : 0.525922
+time of step 3 is : 1.29041
+time of step 4 is : 3.21989
+before mm opt.
+time of step 5 is : 2.66561
+time of step 6 is : 0.032389
+time of step 7 is : 0.544817
+time of step 3 is : 1.33904
+time of step 4 is : 3.28204
+before mm opt.
+time of step 5 is : 2.82505
+time of step 6 is : 0.044595
+time of step 7 is : 0.467942
+time of step 3 is : 1.31968
+time of step 4 is : 3.06847
+before mm opt.
+time of step 5 is : 2.78949
+time of step 6 is : 0.033272
+time of step 7 is : 0.703107
+time of step 3 is : 1.2898
+time of step 4 is : 3.07587
+before mm opt.
+time of step 5 is : 2.72207
+time of step 6 is : 0.033386
+time of step 7 is : 0.809879
+time of step 3 is : 1.38344
+time of step 4 is : 3.47403
+before mm opt.
+time of step 5 is : 2.7085
+time of step 6 is : 0.03325
+time of step 7 is : 0.541744
+time of step 3 is : 1.32307
+time of step 4 is : 3.1955
+before mm opt.
+time of step 5 is : 2.84273
+time of step 6 is : 0.085692
+time of step 7 is : 0.71359
+time of step 3 is : 1.25712
+time of step 4 is : 3.35345
+before mm opt.
+time of step 5 is : 2.64493
+time of step 6 is : 0.03542
+time of step 7 is : 0.696497
+time of step 3 is : 1.06952
+time of step 4 is : 3.35935
+before mm opt.
+time of step 5 is : 2.98446
+time of step 6 is : 0.037217
+time of step 7 is : 0.828036
+time of step 3 is : 1.33154
+time of step 4 is : 3.38977
+before mm opt.
+time of step 5 is : 2.73251
+time of step 6 is : 0.033251
+time of step 7 is : 0.545388
+time of step 3 is : 1.34573
+time of step 4 is : 3.01542
+before mm opt.
+time of step 5 is : 2.69315
+time of step 6 is : 0.036048
+time of step 7 is : 0.510822
+time of step 3 is : 1.46615
+time of step 4 is : 3.16403
+before mm opt.
+time of step 5 is : 2.68148
+time of step 6 is : 0.033298
+time of step 7 is : 0.539747
+time of step 3 is : 1.37051
+time of step 4 is : 3.18293
+before mm opt.
+time of step 5 is : 2.88003
+time of step 6 is : 0.037672
+time of step 7 is : 0.693566
+time of step 3 is : 1.30851
+time of step 4 is : 4.22462
+before mm opt.
+time of step 5 is : 3.04881
+time of step 6 is : 0.032888
+time of step 7 is : 0.708717
+time of step 3 is : 1.34383
+time of step 4 is : 3.75693
+before mm opt.
+time of step 5 is : 3.02603
+time of step 6 is : 0.032447
+time of step 7 is : 0.604744
+time of step 3 is : 1.30693
+time of step 4 is : 3.88419
+before mm opt.
+time of step 5 is : 3.02799
+time of step 6 is : 0.03509
+time of step 7 is : 0.623877
+time of step 3 is : 1.2719
+time of step 4 is : 3.4902
+before mm opt.
+time of step 5 is : 3.27623
+time of step 6 is : 0.064957
+time of step 7 is : 0.836163
+time of step 3 is : 1.37074
+time of step 4 is : 4.6755
+before mm opt.
+time of step 5 is : 3.74864
+time of step 6 is : 0.0334
+time of step 7 is : 0.814375
+time of step 3 is : 1.21614
+time of step 4 is : 4.24559
+before mm opt.
+time of step 5 is : 3.54852
+time of step 6 is : 0.050026
+time of step 7 is : 0.908724
+time of step 3 is : 1.23996
+time of step 4 is : 4.03696
+before mm opt.
+time of step 5 is : 3.37091
+time of step 6 is : 0.034175
+time of step 7 is : 0.842358
+time of step 3 is : 1.32667
+time of step 4 is : 3.86746
+before mm opt.
+time of step 5 is : 3.03579
+time of step 6 is : 0.073956
+time of step 7 is : 0.93514
+time of step 3 is : 1.59661
+time of step 4 is : 3.56757
+before mm opt.
+time of step 5 is : 2.96594
+time of step 6 is : 0.033334
+time of step 7 is : 0.685337
+time of step 3 is : 1.44905
+time of step 4 is : 3.77052
+before mm opt.
+time of step 5 is : 3.25524
+time of step 6 is : 0.035962
+time of step 7 is : 1.00677
+time of step 3 is : 1.2503
+time of step 4 is : 3.84256
+before mm opt.
+time of step 5 is : 3.21199
+time of step 6 is : 0.035773
+time of step 7 is : 0.625155
+time of step 3 is : 1.26275
+time of step 4 is : 3.75113
+before mm opt.
+time of step 5 is : 3.31953
+time of step 6 is : 0.037974
+time of step 7 is : 0.708326
+time of step 3 is : 1.27378
+time of step 4 is : 3.59702
+before mm opt.
+time of step 5 is : 2.98555
+time of step 6 is : 0.032448
+time of step 7 is : 0.763661
+time of step 3 is : 1.34987
+time of step 4 is : 3.93956
+before mm opt.
+time of step 5 is : 3.25834
+time of step 6 is : 0.041255
+time of step 7 is : 0.706398
+time of step 3 is : 1.42475
+time of step 4 is : 4.11802
+before mm opt.
+time of step 5 is : 3.24708
+time of step 6 is : 0.035711
+time of step 7 is : 0.696123
+time of step 3 is : 1.34078
+time of step 4 is : 3.68399
+before mm opt.
+time of step 5 is : 3.13032
+time of step 6 is : 0.033764
+time of step 7 is : 0.649341
+time of step 3 is : 1.31098
+time of step 4 is : 3.92558
+before mm opt.
+time of step 5 is : 2.97308
+time of step 6 is : 0.033357
+time of step 7 is : 0.660724
+time of step 3 is : 1.12001
+time of step 4 is : 3.57016
+before mm opt.
+time of step 5 is : 2.99212
+time of step 6 is : 0.037918
+time of step 7 is : 0.659068
+time of step 3 is : 1.31633
+time of step 4 is : 3.68935
+before mm opt.
+time of step 5 is : 3.58657
+time of step 6 is : 0.045771
+time of step 7 is : 0.958031
+time of step 3 is : 1.15599
+time of step 4 is : 3.9935
+before mm opt.
+time of step 5 is : 3.57488
+time of step 6 is : 0.035077
+time of step 7 is : 0.88533
+time of step 3 is : 1.22204
+time of step 4 is : 3.79175
+before mm opt.
+time of step 5 is : 3.32746
+time of step 6 is : 0.036316
+time of step 7 is : 0.727485
+time of step 3 is : 1.45406
+time of step 4 is : 3.76207
+before mm opt.
+time of step 5 is : 3.40898
+time of step 6 is : 0.043231
+time of step 7 is : 0.770586
+time of step 3 is : 1.23483
+time of step 4 is : 4.1716
+before mm opt.
+time of step 5 is : 3.35776
+time of step 6 is : 0.033495
+time of step 7 is : 0.672324
+time of step 3 is : 1.3111
+time of step 4 is : 4.53281
+before mm opt.
+time of step 5 is : 3.43048
+time of step 6 is : 0.033321
+time of step 7 is : 0.672443
+time of step 3 is : 1.29727
+time of step 4 is : 4.09446
+before mm opt.
+time of step 5 is : 3.29155
+time of step 6 is : 0.097325
+time of step 7 is : 0.863072
+time of step 3 is : 1.33161
+time of step 4 is : 4.29406
+before mm opt.
+time of step 5 is : 3.34696
+time of step 6 is : 0.032872
+time of step 7 is : 0.775452
+time of step 3 is : 1.14143
+time of step 4 is : 3.9066
+before mm opt.
+time of step 5 is : 3.22706
+time of step 6 is : 0.047414
+time of step 7 is : 0.769672
+time of step 3 is : 1.29105
+time of step 4 is : 4.06491
+before mm opt.
+time of step 5 is : 3.65033
+time of step 6 is : 0.040297
+time of step 7 is : 0.965756
+time of step 3 is : 1.22608
+time of step 4 is : 4.09022
+before mm opt.
+time of step 5 is : 3.63041
+time of step 6 is : 0.035345
+time of step 7 is : 0.719793
+time of step 3 is : 1.25207
+time of step 4 is : 4.77355
+before mm opt.
+time of step 5 is : 3.12382
+time of step 6 is : 0.033851
+time of step 7 is : 0.807987
+time of step 3 is : 1.40724
+time of step 4 is : 4.12853
+before mm opt.
+time of step 5 is : 3.44612
+time of step 6 is : 0.035824
+time of step 7 is : 0.711878
+time of step 3 is : 1.28846
+time of step 4 is : 4.30538
+before mm opt.
+time of step 5 is : 3.7067
+time of step 6 is : 0.038202
+time of step 7 is : 0.782125
+time of step 3 is : 1.37033
+time of step 4 is : 4.29523
+before mm opt.
+time of step 5 is : 3.6007
+time of step 6 is : 0.055482
+time of step 7 is : 0.792076
+time of step 3 is : 1.08019
+time of step 4 is : 4.38812
+before mm opt.
+time of step 5 is : 3.85193
+time of step 6 is : 0.072505
+time of step 7 is : 0.745293
+time of step 3 is : 1.34121
+time of step 4 is : 4.50561
+before mm opt.
+time of step 5 is : 4.35516
+time of step 6 is : 0.05163
+time of step 7 is : 0.775471
+time of step 3 is : 1.25595
+time of step 4 is : 4.57586
+before mm opt.
+time of step 5 is : 3.70456
+time of step 6 is : 0.034456
+time of step 7 is : 0.758557
+time of step 3 is : 1.37427
+time of step 4 is : 6.12031
+before mm opt.
+time of step 5 is : 3.59081
+time of step 6 is : 0.049166
+time of step 7 is : 0.856923
+time of step 3 is : 1.49012
+time of step 4 is : 4.40948
+before mm opt.
+time of step 5 is : 3.71811
+time of step 6 is : 0.036176
+time of step 7 is : 0.797033
+time of step 3 is : 1.38561
+time of step 4 is : 4.06612
+before mm opt.
+time of step 5 is : 3.30899
+time of step 6 is : 0.037894
+time of step 7 is : 0.766466
+time of step 3 is : 1.36966
+time of step 4 is : 4.51137
+before mm opt.
+time of step 5 is : 3.64326
+time of step 6 is : 0.039929
+time of step 7 is : 0.761654
+time of step 3 is : 1.20414
+time of step 4 is : 4.14884
+before mm opt.
+time of step 5 is : 3.25847
+time of step 6 is : 0.037193
+time of step 7 is : 0.652529
+time of step 3 is : 1.30901
+time of step 4 is : 3.87691
+before mm opt.
+time of step 5 is : 3.40578
+time of step 6 is : 0.033262
+time of step 7 is : 0.54307
+time of step 3 is : 1.3181
+time of step 4 is : 4.14248
+before mm opt.
+time of step 5 is : 3.38902
+time of step 6 is : 0.034693
+time of step 7 is : 0.484879
+time of step 3 is : 1.41056
+time of step 4 is : 3.82161
+before mm opt.
+time of step 5 is : 3.34755
+time of step 6 is : 0.032973
+time of step 7 is : 0.570591
+time of step 3 is : 1.23242
+time of step 4 is : 3.92028
+before mm opt.
+time of step 5 is : 3.28635
+time of step 6 is : 0.033167
+time of step 7 is : 0.592986
+time of step 3 is : 1.30029
+time of step 4 is : 3.76362
+before mm opt.
+time of step 5 is : 3.26669
+time of step 6 is : 0.063711
+time of step 7 is : 0.688036
+time of step 3 is : 1.49858
+time of step 4 is : 5.17071
+before mm opt.
+time of step 5 is : 4.22907
+time of step 6 is : 0.06301
+time of step 7 is : 0.729769
+time of step 3 is : 1.28291
+time of step 4 is : 5.44535
+before mm opt.
+time of step 5 is : 3.74111
+time of step 6 is : 0.036197
+time of step 7 is : 0.783727
+time of step 3 is : 1.40662
+time of step 4 is : 5.16756
+before mm opt.
+time of step 5 is : 3.71507
+time of step 6 is : 0.072555
+time of step 7 is : 0.917492
+time of step 3 is : 1.32971
+time of step 4 is : 4.63349
+before mm opt.
+time of step 5 is : 3.85663
+time of step 6 is : 0.094241
+time of step 7 is : 0.776869
+time of step 3 is : 1.43642
+time of step 4 is : 4.24179
+before mm opt.
+time of step 5 is : 3.70054
+time of step 6 is : 0.0966
+time of step 7 is : 0.90589
+time of step 3 is : 1.40301
+time of step 4 is : 4.4891
+before mm opt.
+time of step 5 is : 3.38695
+time of step 6 is : 0.03597
+time of step 7 is : 0.550011
+time of step 3 is : 1.34686
+time of step 4 is : 3.88835
+before mm opt.
+time of step 5 is : 3.44965
+time of step 6 is : 0.032391
+time of step 7 is : 0.588369
+time of step 3 is : 1.26885
+time of step 4 is : 3.78485
+before mm opt.
+time of step 5 is : 3.28747
+time of step 6 is : 0.039823
+time of step 7 is : 0.615791
+time of step 3 is : 1.28443
+time of step 4 is : 4.02237
+before mm opt.
+time of step 5 is : 3.67767
+time of step 6 is : 0.033948
+time of step 7 is : 0.869624
+time of step 3 is : 1.33912
+time of step 4 is : 3.99335
+before mm opt.
+time of step 5 is : 3.24923
+time of step 6 is : 0.032888
+time of step 7 is : 0.639391
+time of step 3 is : 1.27681
+time of step 4 is : 4.1648
+before mm opt.
+time of step 5 is : 3.55534
+time of step 6 is : 0.033306
+time of step 7 is : 0.557662
+time of step 3 is : 1.32592
+time of step 4 is : 4.10431
+before mm opt.
+time of step 5 is : 3.38981
+time of step 6 is : 0.033303
+time of step 7 is : 0.609619
+time of step 3 is : 1.2629
+time of step 4 is : 4.07983
+before mm opt.
+time of step 5 is : 3.54398
+time of step 6 is : 0.033546
+time of step 7 is : 0.706028
+time of step 3 is : 1.51232
+time of step 4 is : 5.22201
+before mm opt.
+time of step 5 is : 3.81196
+time of step 6 is : 0.035942
+time of step 7 is : 0.799128
+time of step 3 is : 1.16028
+time of step 4 is : 4.53976
+before mm opt.
+time of step 5 is : 3.47329
+time of step 6 is : 0.036784
+time of step 7 is : 0.569703
+time of step 3 is : 0.995676
+time of step 4 is : 3.84176
+before mm opt.
+time of step 5 is : 3.41957
+time of step 6 is : 0.046037
+time of step 7 is : 0.574438
+time of step 3 is : 1.28076
+time of step 4 is : 4.04073
+before mm opt.
+time of step 5 is : 3.23881
+time of step 6 is : 0.033102
+time of step 7 is : 0.556803
+time of step 3 is : 1.26212
+time of step 4 is : 3.91915
+before mm opt.
+time of step 5 is : 3.24559
+time of step 6 is : 0.032374
+time of step 7 is : 0.510087
+time of step 3 is : 0.992233
+time of step 4 is : 4.74298
+before mm opt.
+time of step 5 is : 3.40196
+time of step 6 is : 0.034822
+time of step 7 is : 0.638354
+time of step 3 is : 1.32569
+time of step 4 is : 4.33549
+before mm opt.
+time of step 5 is : 3.47643
+time of step 6 is : 0.032993
+time of step 7 is : 0.644393
+time of step 3 is : 1.31401
+time of step 4 is : 4.20864
+before mm opt.
+time of step 5 is : 3.66045
+time of step 6 is : 0.063488
+time of step 7 is : 0.778076
+time of step 3 is : 1.41934
+time of step 4 is : 4.72762
+before mm opt.
+time of step 5 is : 4.28903
+time of step 6 is : 0.042264
+time of step 7 is : 0.872431
+time of step 3 is : 1.40741
+time of step 4 is : 4.61886
+before mm opt.
+time of step 5 is : 3.58343
+time of step 6 is : 0.033678
+time of step 7 is : 0.60459
+time of step 3 is : 1.34717
+time of step 4 is : 4.01175
+before mm opt.
+time of step 5 is : 3.3648
+time of step 6 is : 0.03292
+time of step 7 is : 0.628719
+time of step 3 is : 1.29605
+time of step 4 is : 4.04234
+before mm opt.
+time of step 5 is : 3.60465
+time of step 6 is : 0.033368
+time of step 7 is : 0.624031
+time of step 3 is : 1.32858
+time of step 4 is : 4.24203
+before mm opt.
+time of step 5 is : 3.53939
+time of step 6 is : 0.033083
+time of step 7 is : 0.734603
+time of step 3 is : 1.35042
+time of step 4 is : 4.14934
+before mm opt.
+time of step 5 is : 3.5028
+time of step 6 is : 0.03331
+time of step 7 is : 0.530932
+time of step 3 is : 1.27274
+time of step 4 is : 4.61029
+before mm opt.
+time of step 5 is : 4.51211
+time of step 6 is : 0.058604
+time of step 7 is : 0.601338
+time of step 3 is : 1.33561
+time of step 4 is : 4.42758
+before mm opt.
+time of step 5 is : 3.92274
+time of step 6 is : 0.065954
+time of step 7 is : 0.743775
+time of step 3 is : 1.09947
+time of step 4 is : 4.78512
+before mm opt.
+time of step 5 is : 4.39337
+time of step 6 is : 0.034922
+time of step 7 is : 0.855727
+time of step 3 is : 1.23503
+time of step 4 is : 4.33091
+before mm opt.
+time of step 5 is : 3.74561
+time of step 6 is : 0.033561
+time of step 7 is : 0.556093
+time of step 3 is : 1.61522
+time of step 4 is : 5.71244
+before mm opt.
+time of step 5 is : 3.75691
+time of step 6 is : 0.033024
+time of step 7 is : 0.539323
+time of step 3 is : 1.26399
+time of step 4 is : 4.83889
+before mm opt.
+time of step 5 is : 4.00639
+time of step 6 is : 0.04467
+time of step 7 is : 0.820885
+time of step 3 is : 1.2718
+time of step 4 is : 4.61306
+before mm opt.
+time of step 5 is : 3.84937
+time of step 6 is : 0.040628
+time of step 7 is : 0.541568
+time of step 3 is : 1.27677
+time of step 4 is : 4.18216
+before mm opt.
+time of step 5 is : 3.61834
+time of step 6 is : 0.034235
+time of step 7 is : 0.760403
+time of step 3 is : 1.43059
+time of step 4 is : 4.22609
+before mm opt.
+time of step 5 is : 3.4545
+time of step 6 is : 0.032351
+time of step 7 is : 0.602659
+time of step 3 is : 1.25339
+time of step 4 is : 4.35602
+before mm opt.
+time of step 5 is : 3.63896
+time of step 6 is : 0.033588
+time of step 7 is : 0.591847
+time of step 3 is : 1.26804
+time of step 4 is : 6.17509
+before mm opt.
+time of step 5 is : 3.8739
+time of step 6 is : 0.083837
+time of step 7 is : 0.816587
+time of step 3 is : 1.02557
+time of step 4 is : 4.52882
+before mm opt.
+time of step 5 is : 3.79654
+time of step 6 is : 0.033193
+time of step 7 is : 0.801992
+time of step 3 is : 1.36286
+time of step 4 is : 4.43724
+before mm opt.
+time of step 5 is : 3.86847
+time of step 6 is : 0.035871
+time of step 7 is : 0.657108
+time of step 3 is : 1.30978
+time of step 4 is : 4.42986
+before mm opt.
+time of step 5 is : 4.10532
+time of step 6 is : 0.043902
+time of step 7 is : 0.734686
+time of step 3 is : 1.33956
+time of step 4 is : 4.14501
+before mm opt.
+time of step 5 is : 3.70429
+time of step 6 is : 0.033403
+time of step 7 is : 0.802996
+time of step 3 is : 1.62809
+time of step 4 is : 6.4684
+before mm opt.
+time of step 5 is : 4.35398
+time of step 6 is : 0.040213
+time of step 7 is : 0.752624
+time of step 3 is : 1.33537
+time of step 4 is : 4.43716
+before mm opt.
+time of step 5 is : 3.75667
+time of step 6 is : 0.094909
+time of step 7 is : 0.765299
+time of step 3 is : 1.16207
+time of step 4 is : 4.95231
+before mm opt.
+time of step 5 is : 3.86454
+time of step 6 is : 0.039917
+time of step 7 is : 0.462921
+time of step 3 is : 1.14271
+time of step 4 is : 4.23287
+before mm opt.
+time of step 5 is : 4.34056
+time of step 6 is : 0.049084
+time of step 7 is : 0.769734
+time of step 3 is : 1.22228
+time of step 4 is : 4.57748
+before mm opt.
+time of step 5 is : 3.69493
+time of step 6 is : 0.032714
+time of step 7 is : 0.543455
+time of step 3 is : 1.25172
+time of step 4 is : 4.43848
+before mm opt.
+time of step 5 is : 3.76881
+time of step 6 is : 0.034989
+time of step 7 is : 0.775462
+time of step 3 is : 1.4792
+time of step 4 is : 4.38157
+before mm opt.
+time of step 5 is : 3.75515
+time of step 6 is : 0.034312
+time of step 7 is : 0.910549
+time of step 3 is : 1.5022
+time of step 4 is : 5.30948
+before mm opt.
+time of step 5 is : 3.98161
+time of step 6 is : 0.032725
+time of step 7 is : 0.619503
+time of step 3 is : 1.3028
+time of step 4 is : 4.46835
+before mm opt.
+time of step 5 is : 3.85888
+time of step 6 is : 0.033303
+time of step 7 is : 0.6567
+time of step 3 is : 1.24247
+time of step 4 is : 4.4238
+before mm opt.
+time of step 5 is : 3.76389
+time of step 6 is : 0.037699
+time of step 7 is : 0.596251
+time of step 3 is : 1.27059
+time of step 4 is : 4.49672
+before mm opt.
+time of step 5 is : 3.81142
+time of step 6 is : 0.040004
+time of step 7 is : 0.637035
+time of step 3 is : 1.41433
+time of step 4 is : 4.35145
+before mm opt.
+time of step 5 is : 3.74737
+time of step 6 is : 0.033795
+time of step 7 is : 0.624933
+time of step 3 is : 1.26273
+time of step 4 is : 4.42494
+before mm opt.
+time of step 5 is : 3.56201
+time of step 6 is : 0.033294
+time of step 7 is : 0.754151
+time of step 3 is : 1.45696
+time of step 4 is : 4.61202
+before mm opt.
+time of step 5 is : 3.89884
+time of step 6 is : 0.033795
+time of step 7 is : 0.823427
+time of step 3 is : 1.4855
+time of step 4 is : 4.95395
+before mm opt.
+time of step 5 is : 4.3283
+time of step 6 is : 0.140264
+time of step 7 is : 0.742963
+time of step 3 is : 1.35969
+time of step 4 is : 4.86207
+before mm opt.
+time of step 5 is : 4.07268
+time of step 6 is : 0.05859
+time of step 7 is : 0.639351
+time of step 3 is : 1.25541
+time of step 4 is : 5.29018
+before mm opt.
+time of step 5 is : 4.41263
+time of step 6 is : 0.036783
+time of step 7 is : 0.760951
+time of step 3 is : 1.23385
+time of step 4 is : 5.16055
+before mm opt.
+time of step 5 is : 4.70548
+time of step 6 is : 0.033638
+time of step 7 is : 0.971692
+time of step 3 is : 1.32046
+time of step 4 is : 5.02402
+before mm opt.
+time of step 5 is : 4.6196
+time of step 6 is : 0.060701
+time of step 7 is : 0.699397
+time of step 3 is : 1.29333
+time of step 4 is : 5.62556
+before mm opt.
+time of step 5 is : 4.08904
+time of step 6 is : 0.036281
+time of step 7 is : 0.653809
+time of step 3 is : 1.1465
+time of step 4 is : 5.01274
+before mm opt.
+time of step 5 is : 3.98151
+time of step 6 is : 0.033154
+time of step 7 is : 0.546115
+time of step 3 is : 1.04564
+time of step 4 is : 4.39658
+before mm opt.
+time of step 5 is : 3.77477
+time of step 6 is : 0.037583
+time of step 7 is : 0.717894
+time of step 3 is : 1.38941
+time of step 4 is : 4.76864
+before mm opt.
+time of step 5 is : 3.73965
+time of step 6 is : 0.033636
+time of step 7 is : 0.777754
+time of step 3 is : 1.32078
+time of step 4 is : 4.83985
+before mm opt.
+time of step 5 is : 4.40869
+time of step 6 is : 0.041969
+time of step 7 is : 0.787466
+time of step 3 is : 1.30379
+time of step 4 is : 6.18191
+before mm opt.
+time of step 5 is : 4.02274
+time of step 6 is : 0.033369
+time of step 7 is : 0.519902
+time of step 3 is : 1.37292
+time of step 4 is : 5.0408
+before mm opt.
+time of step 5 is : 4.21558
+time of step 6 is : 0.03637
+time of step 7 is : 0.748254
+time of step 3 is : 1.34021
+time of step 4 is : 4.46486
+before mm opt.
+time of step 5 is : 3.7842
+time of step 6 is : 0.037002
+time of step 7 is : 0.699183
+time of step 3 is : 1.34841
+time of step 4 is : 4.57097
+before mm opt.
+time of step 5 is : 3.76505
+time of step 6 is : 0.032846
+time of step 7 is : 0.463676
+time of step 3 is : 1.39204
+time of step 4 is : 5.30175
+before mm opt.
+time of step 5 is : 5.05948
+time of step 6 is : 0.036359
+time of step 7 is : 0.84152
+time of step 3 is : 1.38913
+time of step 4 is : 4.73022
+before mm opt.
+time of step 5 is : 3.90147
+time of step 6 is : 0.033239
+time of step 7 is : 0.667178
+time of step 3 is : 1.23148
+time of step 4 is : 4.65192
+before mm opt.
+time of step 5 is : 3.91079
+time of step 6 is : 0.033622
+time of step 7 is : 0.574677
+time of step 3 is : 1.35442
+time of step 4 is : 4.76951
+before mm opt.
+time of step 5 is : 3.77006
+time of step 6 is : 0.032903
+time of step 7 is : 0.580201
+time of step 3 is : 1.37373
+time of step 4 is : 5.20695
+before mm opt.
+time of step 5 is : 4.32989
+time of step 6 is : 0.052878
+time of step 7 is : 0.77177
+time of step 3 is : 1.43015
+time of step 4 is : 6.41282
+before mm opt.
+time of step 5 is : 4.25155
+time of step 6 is : 0.033386
+time of step 7 is : 0.55222
+time of step 3 is : 1.27801
+time of step 4 is : 4.62351
+before mm opt.
+time of step 5 is : 4.02884
+time of step 6 is : 0.045793
+time of step 7 is : 0.889268
+time of step 3 is : 1.35623
+time of step 4 is : 4.62142
+before mm opt.
+time of step 5 is : 4.01621
+time of step 6 is : 0.03788
+time of step 7 is : 0.557067
+time of step 3 is : 1.46898
+time of step 4 is : 5.11828
+before mm opt.
+time of step 5 is : 4.23558
+time of step 6 is : 0.033417
+time of step 7 is : 0.705458
+time of step 3 is : 1.30202
+time of step 4 is : 4.81927
+before mm opt.
+time of step 5 is : 4.17245
+time of step 6 is : 0.0329
+time of step 7 is : 0.59719
+time of step 3 is : 1.3362
+time of step 4 is : 4.64488
+before mm opt.
+time of step 5 is : 4.25779
+time of step 6 is : 0.03473
+time of step 7 is : 0.574287
+time of step 3 is : 1.27103
+time of step 4 is : 4.79765
+before mm opt.
+time of step 5 is : 4.18537
+time of step 6 is : 0.033505
+time of step 7 is : 0.637532
+time of step 3 is : 1.28234
+time of step 4 is : 4.68929
+before mm opt.
+time of step 5 is : 3.78587
+time of step 6 is : 0.033502
+time of step 7 is : 0.554967
+time of step 3 is : 1.30028
+time of step 4 is : 4.77928
+before mm opt.
+time of step 5 is : 4.12066
+time of step 6 is : 0.032408
+time of step 7 is : 0.665845
+time of step 3 is : 1.30707
+time of step 4 is : 4.61185
+before mm opt.
+time of step 5 is : 3.84785
+time of step 6 is : 0.032824
+time of step 7 is : 0.549929
+time of step 3 is : 1.26524
+time of step 4 is : 4.89478
+before mm opt.
+time of step 5 is : 4.09398
+time of step 6 is : 0.037711
+time of step 7 is : 0.719156
+time of step 3 is : 1.4378
+time of step 4 is : 5.17731
+before mm opt.
+time of step 5 is : 4.25587
+time of step 6 is : 0.033942
+time of step 7 is : 0.830806
+time of step 3 is : 1.25598
+time of step 4 is : 6.88912
+before mm opt.
+time of step 5 is : 4.47022
+time of step 6 is : 0.033582
+time of step 7 is : 0.947049
+time of step 3 is : 1.28403
+time of step 4 is : 5.53832
+before mm opt.
+time of step 5 is : 4.51052
+time of step 6 is : 0.03329
+time of step 7 is : 0.61225
+time of step 3 is : 1.29857
+time of step 4 is : 5.36249
+before mm opt.
+time of step 5 is : 4.44683
+time of step 6 is : 0.036
+time of step 7 is : 0.766185
+time of step 3 is : 1.28974
+time of step 4 is : 5.70872
+before mm opt.
+time of step 5 is : 4.33514
+time of step 6 is : 0.038667
+time of step 7 is : 0.682395
+time of step 3 is : 1.10074
+time of step 4 is : 4.7622
+before mm opt.
+time of step 5 is : 3.99176
+time of step 6 is : 0.039018
+time of step 7 is : 0.695496
+time of step 3 is : 1.26931
+time of step 4 is : 5.13972
+before mm opt.
+time of step 5 is : 4.45669
+time of step 6 is : 0.073486
+time of step 7 is : 0.786525
+time of step 3 is : 1.32634
+time of step 4 is : 4.86034
+before mm opt.
+time of step 5 is : 4.14144
+time of step 6 is : 0.032852
+time of step 7 is : 0.824309
+time of step 3 is : 1.26798
+time of step 4 is : 5.04628
+before mm opt.
+time of step 5 is : 4.24568
+time of step 6 is : 0.054618
+time of step 7 is : 0.757253
+time of step 3 is : 1.351
+time of step 4 is : 5.01987
+before mm opt.
+time of step 5 is : 4.27067
+time of step 6 is : 0.033663
+time of step 7 is : 0.566502
+time of step 3 is : 1.28191
+time of step 4 is : 6.03655
+before mm opt.
+time of step 5 is : 4.09012
+time of step 6 is : 0.035176
+time of step 7 is : 0.534776
+time of step 3 is : 1.25364
+time of step 4 is : 5.32477
+before mm opt.
+time of step 5 is : 4.28484
+time of step 6 is : 0.033694
+time of step 7 is : 0.527817
+time of step 3 is : 1.3572
+time of step 4 is : 5.42512
+before mm opt.
+time of step 5 is : 4.56495
+time of step 6 is : 0.037485
+time of step 7 is : 0.56797
+time of step 3 is : 1.44379
+time of step 4 is : 5.01103
+before mm opt.
+time of step 5 is : 4.37488
+time of step 6 is : 0.080248
+time of step 7 is : 0.528628
+time of step 3 is : 1.37742
+time of step 4 is : 5.26236
+before mm opt.
+time of step 5 is : 4.33434
+time of step 6 is : 0.03341
+time of step 7 is : 0.593783
+time of step 3 is : 1.24737
+time of step 4 is : 5.29546
+before mm opt.
+time of step 5 is : 4.78165
+time of step 6 is : 0.0459
+time of step 7 is : 0.910307
+time of step 3 is : 1.31418
+time of step 4 is : 4.8465
+before mm opt.
+time of step 5 is : 4.1707
+time of step 6 is : 0.034505
+time of step 7 is : 0.596905
+time of step 3 is : 1.38486
+time of step 4 is : 5.36114
+before mm opt.
+time of step 5 is : 4.39499
+time of step 6 is : 0.033314
+time of step 7 is : 0.68035
+time of step 3 is : 1.07279
+time of step 4 is : 5.18828
+before mm opt.
+time of step 5 is : 4.69142
+time of step 6 is : 0.049269
+time of step 7 is : 0.858691
+time of step 3 is : 1.2534
+time of step 4 is : 6.72865
+before mm opt.
+time of step 5 is : 5.09308
+time of step 6 is : 0.039391
+time of step 7 is : 0.861585
+time of step 3 is : 1.21827
+time of step 4 is : 5.33495
+before mm opt.
+time of step 5 is : 5.25022
+time of step 6 is : 0.044009
+time of step 7 is : 0.801575
+time of step 3 is : 1.05655
+time of step 4 is : 5.72543
+before mm opt.
+time of step 5 is : 4.61482
+time of step 6 is : 0.037768
+time of step 7 is : 0.791294
+time of step 3 is : 1.30919
+time of step 4 is : 6.29916
+before mm opt.
+time of step 5 is : 4.75427
+time of step 6 is : 0.038304
+time of step 7 is : 0.772366
+time of step 3 is : 1.02781
+time of step 4 is : 5.02603
+before mm opt.
+time of step 5 is : 4.5848
+time of step 6 is : 0.03375
+time of step 7 is : 0.695548
+time of step 3 is : 1.29541
+time of step 4 is : 5.4113
+before mm opt.
+time of step 5 is : 4.60441
+time of step 6 is : 0.033212
+time of step 7 is : 0.699348
+time of step 3 is : 1.26422
+time of step 4 is : 5.63183
+before mm opt.
+time of step 5 is : 4.08617
+time of step 6 is : 0.033315
+time of step 7 is : 0.514967
+time of step 3 is : 1.32777
+time of step 4 is : 5.25038
+before mm opt.
+time of step 5 is : 4.32925
+time of step 6 is : 0.037323
+time of step 7 is : 0.494684
+time of step 3 is : 1.28362
+time of step 4 is : 7.0487
+before mm opt.
+time of step 5 is : 5.01373
+time of step 6 is : 0.037949
+time of step 7 is : 0.750486
+time of step 3 is : 1.24118
+time of step 4 is : 5.48397
+before mm opt.
+time of step 5 is : 5.02069
+time of step 6 is : 0.053153
+time of step 7 is : 0.728433
+time of step 3 is : 1.22563
+time of step 4 is : 5.20033
+before mm opt.
+time of step 5 is : 4.67292
+time of step 6 is : 0.033228
+time of step 7 is : 0.788838
+time of step 3 is : 1.23903
+time of step 4 is : 5.80209
+before mm opt.
+time of step 5 is : 4.51873
+time of step 6 is : 0.041835
+time of step 7 is : 0.742897
+time of step 3 is : 1.50023
+time of step 4 is : 6.23926
+before mm opt.
+time of step 5 is : 5.09339
+time of step 6 is : 0.043776
+time of step 7 is : 0.907801
+time of step 3 is : 1.27046
+time of step 4 is : 5.59803
+before mm opt.
+time of step 5 is : 4.5911
+time of step 6 is : 0.034099
+time of step 7 is : 0.83156
+time of step 3 is : 1.38594
+time of step 4 is : 5.62916
+before mm opt.
+time of step 5 is : 4.52588
+time of step 6 is : 0.037048
+time of step 7 is : 0.77383
+time of step 3 is : 1.36315
+time of step 4 is : 5.73432
+before mm opt.
+time of step 5 is : 5.33901
+time of step 6 is : 0.055675
+time of step 7 is : 0.955579
+time of step 3 is : 1.38251
+time of step 4 is : 6.42735
+before mm opt.
+time of step 5 is : 5.18349
+time of step 6 is : 0.036461
+time of step 7 is : 0.823706
+time of step 3 is : 1.27571
+time of step 4 is : 6.25239
+before mm opt.
+time of step 5 is : 4.87634
+time of step 6 is : 0.073021
+time of step 7 is : 0.80676
+time of step 3 is : 1.25185
+time of step 4 is : 6.27683
+before mm opt.
+time of step 5 is : 4.92899
+time of step 6 is : 0.037102
+time of step 7 is : 0.632948
+time of step 3 is : 1.296
+time of step 4 is : 5.63833
+before mm opt.
+time of step 5 is : 4.40832
+time of step 6 is : 0.035683
+time of step 7 is : 0.556875
+time of step 3 is : 1.34398
+time of step 4 is : 5.4106
+before mm opt.
+time of step 5 is : 6.14645
+time of step 6 is : 0.057026
+time of step 7 is : 6.1e-05
+total step 3 time is : 520.469
+total step 4 time is : 1233.17
+total step 5 time is : 1046.76
+total step 6 time is : 16.4927
+total step 7 time is : 262.137
+t_total_loop time is : 3079.13
+bidiag_gkl_restart end
+bidiag_glk_restart time is 3079.98
+svd_ge begin
+using svd_ge now
+svd_ge end
+svd_ge time is 0.828574
+main while loop time is 3194.78
+The result is 0
+S(i) is 1.00861e+08
+S(i) is 1.00834e+08
+S(i) is 1.00834e+08
+S(i) is 1.00616e+08
+S(i) is 1.00616e+08
+S(i) is 1.00589e+08
+S(i) is 1.00589e+08
+S(i) is 1.00589e+08
+S(i) is 1.00589e+08
+S(i) is 9.99102e+07
+S(i) is 9.98834e+07
+S(i) is 9.98834e+07
+S(i) is 9.9855e+07
+S(i) is 9.98281e+07
+S(i) is 9.98281e+07
+S(i) is 9.86692e+07
+S(i) is 9.86691e+07
+S(i) is 9.86424e+07
+S(i) is 9.86424e+07
+S(i) is 9.86423e+07
+S(i) is 9.86423e+07
+S(i) is 9.69948e+07
+S(i) is 9.69845e+07
+S(i) is 9.69681e+07
+S(i) is 9.69681e+07
+S(i) is 9.69578e+07
+S(i) is 9.69577e+07
+S(i) is 9.48618e+07
+S(i) is 9.48616e+07
+S(i) is 9.48352e+07
+S(i) is 9.48351e+07
+S(i) is 9.4835e+07
+S(i) is 9.48349e+07
+S(i) is 9.23124e+07
+S(i) is 9.23047e+07
+S(i) is 9.22859e+07
+S(i) is 9.22858e+07
+S(i) is 9.22782e+07
+S(i) is 9.22781e+07
+S(i) is 8.9358e+07
+S(i) is 8.93578e+07
+S(i) is 8.93316e+07
+S(i) is 8.93315e+07
+S(i) is 8.93315e+07
+S(i) is 8.93315e+07
+S(i) is 8.60486e+07
+S(i) is 8.60356e+07
+S(i) is 8.60224e+07
+S(i) is 8.60224e+07
+S(i) is 8.60092e+07
+S(i) is 8.60092e+07
+S(i) is 8.23971e+07
+S(i) is 8.23969e+07
+S(i) is 8.2371e+07
+S(i) is 8.23709e+07
+S(i) is 8.23708e+07
+S(i) is 8.23707e+07
+S(i) is 7.84713e+07
+S(i) is 7.84532e+07
+S(i) is 7.84454e+07
+S(i) is 7.84453e+07
+S(i) is 7.84273e+07
+S(i) is 7.84272e+07
+S(i) is 7.42807e+07
+S(i) is 7.42805e+07
+S(i) is 7.42549e+07
+S(i) is 7.42548e+07
+S(i) is 7.42547e+07
+S(i) is 7.42547e+07
+S(i) is 6.99063e+07
+S(i) is 6.98881e+07
+S(i) is 6.98807e+07
+S(i) is 6.98805e+07
+S(i) is 6.98627e+07
+S(i) is 6.98625e+07
+S(i) is 6.53596e+07
+S(i) is 6.53595e+07
+S(i) is 6.53342e+07
+S(i) is 6.53342e+07
+S(i) is 6.53341e+07
+S(i) is 6.53341e+07
+S(i) is 6.07245e+07
+S(i) is 6.07085e+07
+S(i) is 6.06992e+07
+S(i) is 6.06992e+07
+S(i) is 6.06833e+07
+S(i) is 6.06833e+07
+S(i) is 5.60179e+07
+S(i) is 5.60178e+07
+S(i) is 5.59929e+07
+S(i) is 5.59929e+07
+S(i) is 5.59928e+07
+S(i) is 5.59927e+07
+S(i) is 5.13201e+07
+S(i) is 5.13078e+07
+S(i) is 5.12952e+07
+S(i) is 5.12951e+07
+S(i) is 5.1283e+07
+S(i) is 5.12829e+07
+S(i) is 4.66545e+07
+S(i) is 4.66545e+07
+S(i) is 4.66298e+07
+S(i) is 4.66298e+07
+S(i) is 4.66298e+07
+S(i) is 4.66297e+07
+S(i) is 4.20926e+07
+S(i) is 4.20844e+07
+S(i) is 4.20682e+07
+S(i) is 4.20681e+07
+S(i) is 4.20599e+07
+S(i) is 4.20599e+07
+S(i) is 4.06542e+07
+S(i) is 4.06444e+07
+S(i) is 4.01161e+07
+S(i) is 4.01123e+07
+S(i) is 3.76633e+07
+S(i) is 3.76632e+07
+S(i) is 3.7639e+07
+S(i) is 3.76389e+07
+S(i) is 3.76389e+07
+S(i) is 3.76389e+07
+S(i) is 3.55671e+07
+S(i) is 3.54853e+07
+S(i) is 3.54853e+07
+S(i) is 3.5481e+07
+S(i) is 3.5481e+07
+S(i) is 3.53992e+07
+S(i) is 3.53992e+07
+S(i) is 3.53991e+07
+S(i) is 3.53991e+07
+S(i) is 3.52236e+07
+S(i) is 3.52235e+07
+S(i) is 3.51418e+07
+S(i) is 3.51418e+07
+S(i) is 3.51417e+07
+S(i) is 3.51417e+07
+S(i) is 3.47976e+07
+S(i) is 3.47976e+07
+S(i) is 3.47159e+07
+S(i) is 3.47159e+07
+S(i) is 3.47159e+07
+S(i) is 3.47159e+07
+S(i) is 3.42079e+07
+S(i) is 3.42078e+07
+S(i) is 3.41263e+07
+S(i) is 3.41262e+07
+S(i) is 3.41262e+07
+S(i) is 3.41261e+07
+S(i) is 3.34607e+07
+S(i) is 3.34606e+07
+S(i) is 3.34261e+07
+S(i) is 3.34212e+07
+S(i) is 3.34019e+07
+S(i) is 3.34019e+07
+S(i) is 3.3397e+07
+S(i) is 3.3397e+07
+S(i) is 3.33791e+07
+S(i) is 3.33791e+07
+S(i) is 3.33791e+07
+S(i) is 3.33791e+07
+S(i) is 3.25641e+07
+S(i) is 3.25641e+07
+S(i) is 3.24828e+07
+S(i) is 3.24828e+07
+S(i) is 3.24827e+07
+S(i) is 3.24827e+07
+S(i) is 3.15282e+07
+S(i) is 3.15281e+07
+S(i) is 3.14469e+07
+S(i) is 3.14469e+07
+S(i) is 3.14469e+07
+S(i) is 3.14469e+07
+S(i) is 3.03639e+07
+S(i) is 3.03638e+07
+S(i) is 3.02828e+07
+S(i) is 3.02828e+07
+S(i) is 3.02828e+07
+S(i) is 3.02827e+07
+S(i) is 2.94114e+07
+S(i) is 2.94113e+07
+S(i) is 2.93873e+07
+S(i) is 2.93873e+07
+S(i) is 2.93873e+07
+S(i) is 2.93872e+07
+S(i) is 2.9084e+07
+S(i) is 2.9084e+07
+S(i) is 2.90032e+07
+S(i) is 2.90031e+07
+S(i) is 2.90031e+07
+S(i) is 2.90031e+07
+S(i) is 2.77026e+07
+S(i) is 2.77025e+07
+S(i) is 2.76219e+07
+S(i) is 2.76218e+07
+S(i) is 2.76217e+07
+S(i) is 2.76217e+07
+S(i) is 2.62344e+07
+S(i) is 2.62343e+07
+S(i) is 2.61538e+07
+S(i) is 2.61538e+07

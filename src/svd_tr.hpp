@@ -77,7 +77,7 @@ namespace douban {
 					Q.col(0) = vec_random(Q.col(0).size()) - .5;
 					vec_unit(Q.col(0));
 				}
-				MPI_Bcast(&Q[0], n * (k + 1), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+				MPI_Bcast(&(Q.col(0)[0]), n * (k + 1), MPI_DOUBLE, 0, MPI_COMM_WORLD);
 				/* edited by wuhong */
 				int nconv = 0, l = 0, locked = 0;
 				int thick_cnt = 0, cnt = 0, mv_cost = 0;
