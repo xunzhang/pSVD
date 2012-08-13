@@ -15,6 +15,16 @@
 #include "douban/utility/kahan_sum.hpp"
 #include "douban/matvec/io.hpp"
 
+#include <sys/time.h>
+
+static double currenttime(void) {
+	double timestamp;
+	struct timeval tv;
+	gettimeofday(&tv, 0);
+	timestamp = (double)((double)(tv.tv_sec*1e6) + (double)tv.tv_usec);
+	return timestamp;
+}
+
 namespace douban {
 namespace linalg {
 
@@ -185,7 +195,7 @@ void bidiag_gkl_restart(
     CAX && Ax, CATX && Atx, CD && D, CE && E, CRho && rho, CP && P, CQ && Q, int s_indx, int t_s_indx) {
   // enhancements version from SLEPc
   const double eta = 1.e-10;
-  
+  double t_start, t_end, t_total = 0;
   int rank, nprocs;
   MPI_Comm_rank(MPI_COMM_WORLD, &rank);
   MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
@@ -193,7 +203,7 @@ void bidiag_gkl_restart(
   // Step 1
   // Ax(Q.col(l), P.col(l), P.dim0() > 1000);
   // size of P.col(l) is mx1
-  int recv_len = P.dim0() * nprocs;
+  int recv_len = (int)P.dim0() * nprocs;
   vec_container<double> tmp(Ax.dim0());
   vec_container<double> recv_tmp(recv_len);
   
@@ -201,30 +211,29 @@ void bidiag_gkl_restart(
   auto m_Atx = make_gemv_ax(&Atx);
   //Ax(Q.col(l), tmp, P.dim0() > 1000);
   m_Ax(Q.col(l), tmp, P.dim0() > 1000);
+  /*
+  if(rank == 1)
+    for(size_t i = 0; i < tmp.size(); ++i)
+      std::cout << "tmp(i) is" << tmp.get(i) << std::endl;
+  */
   std::cout << "after first mv." << std::endl; 
+  std::cout << "s_indx " << s_indx << std::endl;
+  vec_container<double> send_data(P.dim0(),0);
   P.col(l) = 0;
+  
+  /*
   for(size_t i = s_indx; i < s_indx + Ax.dim0(); ++i)
     P.col(l).get(i) = tmp.get(i-s_indx);
- 
-  /* for debug
-  std::cout << "&(P.col(l)[0]) is" << &(P.col(l)[0]) << std::endl;
-  std::cout << "&(P.col(l).get(0)) is" << &(P.col(l).get(0)) << std::endl;
-  std::cout << "&(P.get(0,0)) is" << &(P.get(0,0)) << std::endl;
-  std::cout << "&(P.get(0,1)) is" << &(P.get(0,1)) << std::endl;
-  std::cout << "&(P.get(1,0)) is" << &(P.get(1,0)) << std::endl;
-  std::cout << "&(P.col(l)[1]) is" << &(P.col(l)[1]) << std::endl;
-  std::cout << "&(P.col(l)[2]) is" << &(P.col(l)[2]) << std::endl;
-  std::cout << "&(P.col(l)[3]) is" << &(P.col(l)[3]) << std::endl;
-  std::cout << "&(P.col(l)[4]) is" << &(P.col(l)[4]) << std::endl;
-  for debug*/
-  vec_container<double> send_data(P.dim0());
+
   for(size_t i = 0; i < P.dim0(); ++i) 
     send_data[i] = P.col(l).get(i);
+  */
+  for(size_t i = s_indx; i < s_indx + Ax.dim0(); ++i)
+    send_data[i] = tmp.get(i-s_indx);
 
-  // !!! I am not sure the P.col(l) is continuously stored in memory
   // MPI_Gather(&(P.col(l)[0]), P.dim0(), MPI_DOUBLE, &recv_tmp, recv_len, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-  std::cout << P.dim0() << std::endl;
-  MPI_Gather(&(send_data[0]), P.dim0(), MPI_DOUBLE, &recv_tmp[0], recv_len, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+  // MPI_Gather(&send_data[0], (int)P.dim0(), MPI_DOUBLE, &recv_tmp[0], recv_len, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+  MPI_Gather(&send_data[0], P.dim0(), MPI_DOUBLE, &recv_tmp[0], P.dim0(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
   // Generate truly P.col(l)
   if(rank == 0) {
     for(size_t i = 0; i < P.dim0(); ++i) 
@@ -232,9 +241,10 @@ void bidiag_gkl_restart(
         recv_tmp.get(i) += recv_tmp.get(j*P.dim0()+i);
     for(size_t i = 0; i < P.dim0(); ++i)
       P.col(l).get(i) = recv_tmp.get(i);
-    std::cout << "after step 1." << std::endl;  
+    std::cout << "after step 1 and result is bug-free.." << std::endl;  
     // Step 2 & also in rank 0
     for (int j = locked; j < l; ++j) {
+      std::cout << "rho is " << rho(j) << std::endl;
       P.col(l) += -rho(j) * P.col(j);
     }
   }
@@ -242,16 +252,16 @@ void bidiag_gkl_restart(
   // for(size_t i = 0; i < P.dim0(); ++i)
   //  send_data[i] = P.col(l).get(i);
   // MPI_Bcast(&P[0], P.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
-  // !!! I am not sure MPI_Bcast could cover the original value
   // MPI_Bcast(&(P.col(l)[0]), P.dim0(), MPI_DOUBLE, 0, MPI_COMM_WORLD); 
   //MPI_Bcast(&(send_data[0]), P.dim0(), MPI_DOUBLE, 0, MPI_COMM_WORLD); 
-  MPI_Bcast(&(P.col(l)[0]), P.dim0() * P.dim1(), MPI_DOUBLE, 0, MPI_COMM_WORLD); 
-  std::cout << "before main loop" << std::endl;
-
+  MPI_Bcast(&(P.col(l)[0]), P.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD); 
+  std::cout << "before main loop is bug-free.." << std::endl;
+   
   // Main loop
   vec_container<double> T(n);
   int recv_l = Q.dim0() * nprocs;
   vec_container<double> recv_t(recv_l);
+  
   for (int j = l; j < n; ++j) {
     // Step 3   
     //Atx(P.col(j), Q.col(j + 1), Q.dim0() > 1000);
@@ -259,23 +269,31 @@ void bidiag_gkl_restart(
     //Atx(P.col(j), tmp2, Q.dim0() > 1000);
     m_Atx(P.col(j), tmp2, Q.dim0() > 1000);
     std::cout << "after second mv" << std::endl;
-    Q.col(j+1) = 0;
     
+    t_start = currenttime();
+    /*
     for(size_t i = t_s_indx; i < t_s_indx + Atx.dim0(); ++i)
       Q.col(j+1).get(i) = tmp2.get(i-t_s_indx); 
-    
-    send_data.resize(Q.dim0());
+    */
+    vec_container<double> s_data(Q.dim0(), 0); 
+    //send_data.resize(Q.dim0());
+    // send_data.resize((int)Q.dim0(), 0);
+      for(size_t i = t_s_indx; i < t_s_indx + Atx.dim0(); ++i)
+        s_data[i] = tmp2[i-t_s_indx];
     // MPI_Gather(&(Q.col(j+1)[0]), Q.dim0(), MPI_DOUBLE, &recv_t, recv_l, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-    MPI_Gather(&(send_data[0]), Q.dim0(), MPI_DOUBLE, &recv_t[0], recv_l, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-     
+    MPI_Gather(&s_data[0], Q.dim0(), MPI_DOUBLE, &recv_t[0], Q.dim0(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    Q.col(j+1) = 0;
+
     if(rank == 0) {
       // Generate truly Q.col(j+1) 
       for(size_t k1 = 0; k1 < Q.dim0(); ++k1)
-        for(size_t k2 = 0; k2 < (size_t)nprocs; ++k2)
+        for(size_t k2 = 1; k2 < (size_t)nprocs; ++k2)
 	  recv_t.get(k1) += recv_t.get(k2*Q.dim0()+k1);
-      for(size_t k3 = 0; k3 < Q.dim0(); ++k3)
-        Q.col(j+1).get(k3) = recv_t.get(k3);
-      std::cout << "after step 3" << std::endl; 
+      for(size_t k1 = 0; k1 < Q.dim0(); ++k1)
+        Q.col(j+1).get(k1) = recv_t.get(k1);
+      t_end = currenttime();
+      t_total += (t_end - t_start) / 1.0e6;
+      std::cout << "after step 3 and the result is bug-free.." << std::endl; 
       // Step 4
       auto Qj = mat_cols(Q, 0, j + 1);
       auto Tj = make_vec(&T, j + 1);
@@ -302,29 +320,40 @@ void bidiag_gkl_restart(
       beta = std::sqrt(beta);
       E[j] = beta;
       Q.col(j + 1).scale(1. / E[j]);
-      std::cout << "after step 6" << std::endl; 
+      std::cout << "after step 6 and the result is bug-free.." << std::endl; 
     } 
       
     // Step 7
     // MPI_Bcast(&(Q.col(j+1)[0]), Q.dim0(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
     
-    MPI_Bcast(&(Q.col(j+1)[0]), Q.dim0() * Q.dim1(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    MPI_Bcast(&(Q.col(j+1)[0]), Q.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    
+    std::cout << "every thing goes well~" << std::endl;
+
     if (j + 1 < n) {
       vec_container<double> tmp3(Ax.dim0());
       // Ax(Q.col(j + 1), P.col(j + 1), P.dim0() > 1000);
       //Ax(Q.col(j + 1), tmp3, P.dim0() > 1000);
       m_Ax(Q.col(j + 1), tmp3, P.dim0() > 1000);
       std::cout << "after third mv" << std::endl;
-      P.col(j+1) = 0;
       
+      vec_container<double> se_data(P.dim0(), 0);
+      
+      /*
       for(size_t k1 = s_indx; k1 < s_indx + Ax.dim0(); ++k1)
         P.col(j+1).get(k1) = tmp3.get(k1-s_indx);
       
       for(size_t i = 0; i < P.dim0(); ++i)
-        send_data[i] = P.col(j+1).get(i);
-      // MPI_Gather(&(P.col(j+1)[0]), P.dim0(), MPI_DOUBLE, &recv_tmp, recv_len, MPI_DOUBLE, 0, MPI_COMM_WORLD);
-      MPI_Gather(&(send_data[0]), P.dim0(), MPI_DOUBLE, &recv_tmp[0], recv_len, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+        se_data[i] = P.col(j+1).get(i);
+      */
+      for(size_t k1 = s_indx; k1 < s_indx + Ax.dim0(); ++k1)
+        se_data[k1] = tmp3[k1-s_indx];
 
+      // MPI_Gather(&(P.col(j+1)[0]), P.dim0(), MPI_DOUBLE, &recv_tmp, recv_len, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+      MPI_Gather(&se_data[0], P.dim0(), MPI_DOUBLE, &recv_tmp[0], P.dim0(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+      
+      P.col(j+1) = 0;
+      
       // Gernerate truly P.col(j+1)
       if(rank == 0) {
         for(size_t k1 = 0; k1 < P.dim0(); ++k1)
@@ -332,12 +361,16 @@ void bidiag_gkl_restart(
 	    recv_tmp.get(k1) += recv_tmp.get(k2*P.dim0()+k1);
 	for(size_t k1 = 0; k1 < P.dim0(); ++k1)
 	  P.col(j+1).get(k1) = recv_tmp.get(k1);
-        
 	// the remaining opt of step7, just exec on processor 0
 	P.col(j + 1).plus_assign(- E[j] * P.col(j), P.dim0() > 1000);
+        //for(size_t k1 = 0; k1 < P.dim0(); ++k1)
+	//  std::cout << "cccccheck " << P.col(j+1).get(k1) << std::endl;
       }
+
+      MPI_Bcast(&(P.col(l)[0]), P.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
     }
   }     
+  std::cout << "total step 3 time is : " << t_total << std::endl; 
   return ;
 }
 

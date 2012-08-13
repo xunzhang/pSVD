@@ -68,6 +68,7 @@ namespace douban {
 				auto beta = make_vec(beta_buf, k);
 				auto rho = make_vec(rho_buf, k);
 				auto B = make_mat_col_major(b_buf, k, k);
+				std::cout << "k is " << k << std::endl;
 				mat_container<double, true> P(m, k);
 				mat_container<double, true> Q(n, k + 1);
 				P = 0;
@@ -128,29 +129,43 @@ namespace douban {
 					t_end_tmp = current_time();
 					std::cout << "svd_ge end" << std::endl; 
 					std::cout << "svd_ge time is " << (t_end_tmp - t_start_tmp) / 1.0e6 << std::endl;
-
+					std::cout << "ddebug1" << std::endl;
 					vec_lim_str(BS, 100);
+					std::cout << "ddebug2" << std::endl;
 					//CLOG_IF(display >= 6, INFO, "S=" << vec_lim_str(BS, 100));
 					//CLOG_IF(display >= 10, INFO, "done svd_ge");
 					make_vec(rho_buf + locked, k - locked) = beta[k - 1] * BU.row(k - locked - 1);
+					std::cout << "ddebug3" << std::endl;
 					int o_nconv = nconv, n_nconv = locked;
 					while (n_nconv < k) {
 						if (std::abs(rho[n_nconv]) > eps * s_buf[0]) break;
 						n_nconv ++;
 					}
+					std::cout << "ddebug4" << std::endl;
 					if (n_nconv != o_nconv) {
 						cnt = 0;
 						l = (n_nconv + k) / 2;
 						if (l == n_nconv) l = k;
 					}
+					std::cout << "ddebug5" << std::endl;
 					if (display >= 5) ot = get_drtime();
+					if(rank == 0) {
 #pragma omp parallel sections
 					{
 #pragma omp section
 						{
 							if (l > locked) {
+								std::cout << "I am here l > locked" << std::endl;
 								auto Qk = make_mat_sub(&Q, Q.dim0(), k - locked, 0, locked);
 								auto Ql = make_mat_sub(&Q, Q.dim0(), l - locked, 0, locked);
+								if(rank == 0) {
+									std::cout << "Qk.dim0 is" << Qk.dim0() << std::endl;
+							 		for(size_t kk = 0; kk < Qk.dim0(); ++kk)
+									  std::cout << "Qk is" << Qk.get(kk, 0) << std::endl;
+									std::cout << "Ql.dim1 is" << Ql.dim1() << std::endl;
+							 		for(size_t kk = 0; kk < Ql.dim1(); ++kk)
+									  std::cout << "Ql is" << Ql.get(0, kk) << std::endl;
+								}
 								// auto Q_lt = make_mat_col_major(mat_buf, Q.dim0(), l - locked);
 								// for-loop gemm version
 								// Q_lt = gemm(Qk, make_mat_sub(BV, BV.dim0(), l - locked, 0, 0));
@@ -158,7 +173,9 @@ namespace douban {
 								// or parallel gemm
 								// gemm(Qk, make_mat_sub(BV, BV.dim0(), l - locked, 0, 0), Ql);
 								// or by blas
+								std::cout << "ddebug 5.2" << std::endl;
 								blas::gemm(1, Qk, make_mat_sub(&BV, BV.dim0(), l - locked, 0, 0), 0, Ql);
+								std::cout << "ddebug 5.5" << std::endl;
 								// or directly to cblas
 								// cblas_dgemm(CblasColMajor, CblasNoTrans, CblasNoTrans,
 								//             Ql.dim0(), Ql.dim1(), Qk.dim1(),
@@ -170,13 +187,16 @@ namespace douban {
 #pragma omp section
 						{
 							if (l > locked) {
+								std::cout << "I am here l > locked another" << std::endl;
 								auto Pk = make_mat_sub(&P, P.dim0(), k - locked, 0, locked);
 								auto Pl = make_mat_sub(&P, P.dim0(), l - locked, 0, locked);
 								// auto P_lt = make_mat_col_major(mat_buf, P.dim0(), l - locked);
 								// P_lt = gemm(Pk, make_mat_sub(BU, BU.dim0(), l - locked, 0, 0));
 								// Pl = P_lt;
 								//gemm(Pk, make_mat_sub(BU, BU.dim0(), l - locked, 0, 0), Pl);
+								std::cout << "ddebug 5.7" << std::endl;
 								blas::gemm(1, Pk, make_mat_sub(&BU, BU.dim0(), l - locked, 0, 0), 0, Pl);
+								std::cout << "ddebug 5.9" << std::endl;
 								// cblas_dgemm(CblasColMajor, CblasNoTrans, CblasNoTrans,
 								//             Pl.dim0(), Pl.dim1(), Pk.dim1(),
 								//             1., &Pk(0, 0), Pk.dim0(), &BU(0, 0), BU.dim0(),
@@ -185,8 +205,10 @@ namespace douban {
 							}
 						}
 					}
-
+					}
+					std::cout << "ddebug 6" << std::endl;
 					Q.col(l).assign(Q.col(k));
+					std::cout << "ddebug 7" << std::endl;
 					//CLOG_IF(display >= 5, INFO, "updated P and Q in " << (get_drtime() - ot) << " seconds");
 					nconv = n_nconv;
 					// CLOG_IF(display && nconv != o_nconv, INFO,
@@ -200,9 +222,11 @@ namespace douban {
 				}
 				t_end = current_time();
 				std::cout << "main while loop time is " << (t_end - t_start) / 1.0e6 << std::endl;
+				std::cout << "ddebug 8" << std::endl;
 				S = make_vec(s_buf, S.size());
 				U = make_mat_sub(&P, P.dim0(), U.dim1(), 0, 0);
 				V = make_mat_sub(&Q, Q.dim0(), V.dim1(), 0, 0);
+				std::cout << "ddebug 9" << std::endl;
 				return 0;
 			}
 /*
