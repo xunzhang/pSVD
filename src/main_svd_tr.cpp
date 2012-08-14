@@ -24,17 +24,17 @@ int main(int argc, char *argv[]) {
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 	MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
 
-	int m, n, m_At, n_At, nnz, k = 2, p = 2, display = 10;
+	int m, n, m_At, n_At, nnz, k = 400, p = 400, display = 10;
 	int len, begin, end, s_indx, t_s_indx;
 	std::map<int, int> word_kind;
 	FILE *fp, *fp2;
 
-	fp = fopen("matrix_1wx1w.bin", "rb");
+	fp = fopen("matrix_100wx100w.bin", "rb");
 	fread(&m, sizeof(int), 1, fp);
 	fread(&n, sizeof(int), 1, fp);
 	fread(&nnz, sizeof(int), 1, fp);
 	
-	fp2 = fopen("matrix_1wx1w_trans.bin", "rb");
+	fp2 = fopen("matrix_100wx100w_trans.bin", "rb");
 	fread(&m_At, sizeof(int), 1, fp2);
 	fread(&n_At, sizeof(int), 1, fp2);
 	fread(&nnz, sizeof(int), 1, fp2);
