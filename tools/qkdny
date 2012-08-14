@@ -1,0 +1,29 @@
+#! /bin/sh
+# Filename: qkdny2ori.sh
+if [ "$1" = "original" ]; then
+	if [ -f "svd_tr.hpp_new" ]; then
+		echo "You must be kidding!!"
+		exit 1
+	fi
+	echo "transfer to original"
+	cp -r "/home/wuhong_intern/local/include/douban/linalg" "/home/wuhong_intern/BackUp/linalg_bak"
+	mv svd_tr.hpp svd_tr.hpp_new
+	mv svd_tr.hpp_ori svd_tr.hpp
+	mv bidiag.hpp bidiag.hpp_new
+	mv bidiag.hpp_ori bidiag.hpp
+elif [ "$1" = "new" ]; then
+	if [ -f "svd_tr.hpp_ori" ]; then
+		echo "You must be kidding!!"
+		exit 1
+	fi
+	echo "transfer to new"
+	cp -r "/home/wuhong_intern/local/include/douban/linalg" "/home/wuhong_intern/BackUp/linalg_bak"
+	mv svd_tr.hpp svd_tr.hpp_ori
+	mv svd_tr.hpp_new svd_tr.hpp
+	mv bidiag.hpp bidiag.hpp_ori
+	mv bidiag.hpp_new bidiag.hpp
+else
+	echo "Are you serious??"
+fi
+
+exit 0
