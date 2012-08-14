@@ -1,0 +1,1258 @@
+149999
+149999
+local m is 50000
+local m_At is 50000
+local m is 50000
+local m_At is 50000
+Bp[m] is 149999
+nnz is 149999
+Bp[m] is 149999
+nnz is 149999
+honey
+Bp[m] is 149999
+nnz is 149999
+honey
+Bp[m] is 149999
+nnz is 149999
+I am here.
+I am here.
+h1
+h1
+h2
+0,0,0,0,0 ... 0,0,0,0,0
+bidiag_gkl_restart start
+h2
+0,0,0,0,0 ... 0,0,0,0,0
+bidiag_gkl_restart start
+time of step 3 is : 0.189326
+time of step 4 is : 0.089979
+time of step 5 is : 0.136472
+time of step 6 is : 0.012977
+time of latter step 7 is : 0.044511
+time of step 7 is : 0.235912
+time of step 3 is : 0.186598
+time of step 4 is : 0.115146
+time of step 5 is : 0.116191
+time of step 6 is : 0.010807
+time of latter step 7 is : 0.021523
+time of step 7 is : 0.272984
+time of step 3 is : 0.210149
+time of step 4 is : 0.083642
+time of step 5 is : 0.193265
+time of step 6 is : 0.026889
+time of latter step 7 is : 0.028429
+time of step 7 is : 0.197187
+time of step 3 is : 0.222493
+time of step 4 is : 0.150573
+time of step 5 is : 0.265817
+time of step 6 is : 0.014232
+time of latter step 7 is : 0.032513
+time of step 7 is : 0.158229
+time of step 3 is : 0.216416
+time of step 4 is : 0.124997
+time of step 5 is : 0.268643
+time of step 6 is : 0.012933
+time of latter step 7 is : 0.058587
+time of step 7 is : 0.221995
+time of step 3 is : 0.231183
+time of step 4 is : 0.145498
+time of step 5 is : 0.31662
+time of step 6 is : 0.015159
+time of latter step 7 is : 0.019766
+time of step 7 is : 0.119184
+time of step 3 is : 0.206635
+time of step 4 is : 0.144508
+time of step 5 is : 0.213444
+time of step 6 is : 0.017132
+time of latter step 7 is : 0.017049
+time of step 7 is : 0.151447
+time of step 3 is : 0.149902
+time of step 4 is : 0.138726
+time of step 5 is : 0.255825
+time of step 6 is : 0.013153
+time of latter step 7 is : 0.034237
+time of step 7 is : 0.215546
+time of step 3 is : 0.186763
+time of step 4 is : 0.128508
+time of step 5 is : 0.180137
+time of step 6 is : 0.013565
+time of latter step 7 is : 0.023376
+time of step 7 is : 0.156237
+time of step 3 is : 0.300212
+time of step 4 is : 0.172708
+time of step 5 is : 0.241286
+time of step 6 is : 0.016313
+time of latter step 7 is : 0.111993
+time of step 7 is : 0.354534
+time of step 3 is : 0.185011
+time of step 4 is : 0.189087
+time of step 5 is : 0.343152
+time of step 6 is : 0.042031
+time of latter step 7 is : 0.026366
+time of step 7 is : 0.157783
+time of step 3 is : 0.158009
+time of step 4 is : 0.19057
+time of step 5 is : 0.311393
+time of step 6 is : 0.017392
+time of latter step 7 is : 0.021627
+time of step 7 is : 0.187293
+time of step 3 is : 0.287875
+time of step 4 is : 0.243454
+time of step 5 is : 0.305655
+time of step 6 is : 0.025845
+time of latter step 7 is : 0.027571
+time of step 7 is : 0.197898
+time of step 3 is : 0.200315
+time of step 4 is : 0.203584
+time of step 5 is : 0.282767
+time of step 6 is : 0.016291
+time of latter step 7 is : 0.046054
+time of step 7 is : 0.19162
+time of step 3 is : 0.122153
+time of step 4 is : 0.26774
+time of step 5 is : 0.35442
+time of step 6 is : 0.014183
+time of latter step 7 is : 0.032682
+time of step 7 is : 0.241904
+time of step 3 is : 0.239366
+time of step 4 is : 0.247707
+time of step 5 is : 0.251954
+time of step 6 is : 0.015115
+time of latter step 7 is : 0.049231
+time of step 7 is : 0.254107
+time of step 3 is : 0.224005
+time of step 4 is : 0.195487
+time of step 5 is : 0.295872
+time of step 6 is : 0.015201
+time of latter step 7 is : 0.023016
+time of step 7 is : 0.209724
+time of step 3 is : 0.364833
+time of step 4 is : 0.248334
+time of step 5 is : 0.259349
+time of step 6 is : 0.01512
+time of latter step 7 is : 0.028945
+time of step 7 is : 0.265194
+time of step 3 is : 0.138966
+time of step 4 is : 0.358398
+time of step 5 is : 0.36343
+time of step 6 is : 0.014488
+time of latter step 7 is : 0.031404
+time of step 7 is : 0.215655
+time of step 3 is : 0.154318
+time of step 4 is : 0.293922
+time of step 5 is : 0.292146
+time of step 6 is : 0.014929
+time of latter step 7 is : 0.071933
+time of step 7 is : 0.29438
+time of step 3 is : 0.163282
+time of step 4 is : 0.256982
+time of step 5 is : 0.283685
+time of step 6 is : 0.015455
+time of latter step 7 is : 0.021392
+time of step 7 is : 0.155119
+time of step 3 is : 0.293946
+time of step 4 is : 0.287113
+time of step 5 is : 0.263069
+time of step 6 is : 0.014498
+time of latter step 7 is : 0.035405
+time of step 7 is : 0.181473
+time of step 3 is : 0.167283
+time of step 4 is : 0.271105
+time of step 5 is : 0.44236
+time of step 6 is : 0.015078
+time of latter step 7 is : 0.019283
+time of step 7 is : 0.121606
+time of step 3 is : 0.160928
+time of step 4 is : 0.264165
+time of step 5 is : 0.334278
+time of step 6 is : 0.033126
+time of latter step 7 is : 0.023168
+time of step 7 is : 0.12693
+time of step 3 is : 0.178124
+time of step 4 is : 0.3346
+time of step 5 is : 0.304565
+time of step 6 is : 0.014639
+time of latter step 7 is : 0.019426
+time of step 7 is : 0.104804
+time of step 3 is : 0.215551
+time of step 4 is : 0.272763
+time of step 5 is : 0.348653
+time of step 6 is : 0.015519
+time of latter step 7 is : 0.019676
+time of step 7 is : 0.174635
+time of step 3 is : 0.146648
+time of step 4 is : 0.246876
+time of step 5 is : 0.359953
+time of step 6 is : 0.01712
+time of latter step 7 is : 0.024128
+time of step 7 is : 0.290886
+time of step 3 is : 0.159188
+time of step 4 is : 0.334679
+time of step 5 is : 0.288729
+time of step 6 is : 0.042484
+time of latter step 7 is : 0.022838
+time of step 7 is : 0.212688
+time of step 3 is : 0.234094
+time of step 4 is : 0.324022
+time of step 5 is : 0.401623
+time of step 6 is : 0.016784
+time of latter step 7 is : 0.028535
+time of step 7 is : 0.168169
+time of step 3 is : 0.159802
+time of step 4 is : 0.411594
+time of step 5 is : 0.296247
+time of step 6 is : 0.015507
+time of latter step 7 is : 0.036946
+time of step 7 is : 0.215767
+time of step 3 is : 0.143528
+time of step 4 is : 0.40616
+time of step 5 is : 0.428596
+time of step 6 is : 0.015388
+time of latter step 7 is : 0.020777
+time of step 7 is : 0.119754
+time of step 3 is : 0.103566
+time of step 4 is : 0.357326
+time of step 5 is : 0.441408
+time of step 6 is : 0.015505
+time of latter step 7 is : 0.032174
+time of step 7 is : 0.172598
+time of step 3 is : 0.264022
+time of step 4 is : 0.329695
+time of step 5 is : 0.390938
+time of step 6 is : 0.015606
+time of latter step 7 is : 0.023594
+time of step 7 is : 0.232378
+time of step 3 is : 0.253491
+time of step 4 is : 0.348651
+time of step 5 is : 0.345142
+time of step 6 is : 0.026907
+time of latter step 7 is : 0.021163
+time of step 7 is : 0.16345
+time of step 3 is : 0.38696
+time of step 4 is : 0.33504
+time of step 5 is : 0.361518
+time of step 6 is : 0.016439
+time of latter step 7 is : 0.022755
+time of step 7 is : 0.176602
+time of step 3 is : 0.163949
+time of step 4 is : 0.349022
+time of step 5 is : 0.376267
+time of step 6 is : 0.018716
+time of latter step 7 is : 0.059648
+time of step 7 is : 0.282089
+time of step 3 is : 0.182352
+time of step 4 is : 0.454681
+time of step 5 is : 0.414701
+time of step 6 is : 0.045642
+time of latter step 7 is : 0.037416
+time of step 7 is : 0.180912
+time of step 3 is : 0.218512
+time of step 4 is : 0.400336
+time of step 5 is : 0.382699
+time of step 6 is : 0.01501
+time of latter step 7 is : 0.056893
+time of step 7 is : 0.217818
+time of step 3 is : 0.185774
+time of step 4 is : 0.420068
+time of step 5 is : 0.427913
+time of step 6 is : 0.027221
+time of latter step 7 is : 0.025887
+time of step 7 is : 0.217118
+time of step 3 is : 0.142142
+time of step 4 is : 0.411643
+time of step 5 is : 0.4342
+time of step 6 is : 0.016027
+time of latter step 7 is : 0.026309
+time of step 7 is : 0.171464
+time of step 3 is : 0.299345
+time of step 4 is : 0.338378
+time of step 5 is : 0.433459
+time of step 6 is : 0.015356
+time of latter step 7 is : 0.046536
+time of step 7 is : 0.187266
+time of step 3 is : 0.122554
+time of step 4 is : 0.462238
+time of step 5 is : 0.493429
+time of step 6 is : 0.014835
+time of latter step 7 is : 0.019781
+time of step 7 is : 0.121891
+time of step 3 is : 0.15872
+time of step 4 is : 0.494424
+time of step 5 is : 0.565921
+time of step 6 is : 0.015316
+time of latter step 7 is : 0.035596
+time of step 7 is : 0.229364
+time of step 3 is : 0.267313
+time of step 4 is : 0.363429
+time of step 5 is : 0.509573
+time of step 6 is : 0.036584
+time of latter step 7 is : 0.041136
+time of step 7 is : 0.157067
+time of step 3 is : 0.26427
+time of step 4 is : 0.618262
+time of step 5 is : 0.510865
+time of step 6 is : 0.015853
+time of latter step 7 is : 0.02455
+time of step 7 is : 0.194154
+time of step 3 is : 0.353741
+time of step 4 is : 0.464658
+time of step 5 is : 0.50981
+time of step 6 is : 0.015136
+time of latter step 7 is : 0.0213
+time of step 7 is : 0.186799
+time of step 3 is : 0.208063
+time of step 4 is : 0.423987
+time of step 5 is : 0.45229
+time of step 6 is : 0.031295
+time of latter step 7 is : 0.061729
+time of step 7 is : 0.198051
+time of step 3 is : 0.337858
+time of step 4 is : 0.463385
+time of step 5 is : 0.480454
+time of step 6 is : 0.015149
+time of latter step 7 is : 0.048582
+time of step 7 is : 0.298532
+time of step 3 is : 0.151036
+time of step 4 is : 0.450536
+time of step 5 is : 0.49073
+time of step 6 is : 0.015612
+time of latter step 7 is : 0.036493
+time of step 7 is : 0.220599
+time of step 3 is : 0.151322
+time of step 4 is : 0.597386
+time of step 5 is : 0.44753
+time of step 6 is : 0.027453
+time of latter step 7 is : 0.02655
+time of step 7 is : 0.197386
+time of step 3 is : 0.184485
+time of step 4 is : 0.662194
+time of step 5 is : 0.585171
+time of step 6 is : 0.047889
+time of latter step 7 is : 0.073881
+time of step 7 is : 0.280132
+time of step 3 is : 0.123628
+time of step 4 is : 0.544043
+time of step 5 is : 0.564737
+time of step 6 is : 0.015593
+time of latter step 7 is : 0.011985
+time of step 7 is : 0.263154
+time of step 3 is : 0.239549
+time of step 4 is : 0.489842
+time of step 5 is : 0.404502
+time of step 6 is : 0.037209
+time of latter step 7 is : 0.124616
+time of step 7 is : 0.24021
+time of step 3 is : 0.192477
+time of step 4 is : 0.555774
+time of step 5 is : 0.46188
+time of step 6 is : 0.015235
+time of latter step 7 is : 0.030643
+time of step 7 is : 0.197643
+time of step 3 is : 0.106788
+time of step 4 is : 0.555959
+time of step 5 is : 0.5689
+time of step 6 is : 0.017571
+time of latter step 7 is : 0.063824
+time of step 7 is : 0.199427
+time of step 3 is : 0.280767
+time of step 4 is : 0.516335
+time of step 5 is : 0.555639
+time of step 6 is : 0.017661
+time of latter step 7 is : 0.027338
+time of step 7 is : 0.172749
+time of step 3 is : 0.232713
+time of step 4 is : 0.557751
+time of step 5 is : 0.513901
+time of step 6 is : 0.015437
+time of latter step 7 is : 0.017878
+time of step 7 is : 0.161681
+time of step 3 is : 0.239098
+time of step 4 is : 0.581086
+time of step 5 is : 0.569036
+time of step 6 is : 0.015351
+time of latter step 7 is : 0.060708
+time of step 7 is : 0.232666
+time of step 3 is : 0.15617
+time of step 4 is : 0.629683
+time of step 5 is : 0.609243
+time of step 6 is : 0.015773
+time of latter step 7 is : 0.023089
+time of step 7 is : 0.283527
+time of step 3 is : 0.266435
+time of step 4 is : 0.593701
+time of step 5 is : 0.602131
+time of step 6 is : 0.016867
+time of latter step 7 is : 0.029397
+time of step 7 is : 0.173682
+time of step 3 is : 0.141141
+time of step 4 is : 0.556091
+time of step 5 is : 0.514432
+time of step 6 is : 0.015388
+time of latter step 7 is : 0.019139
+time of step 7 is : 0.105128
+time of step 3 is : 0.143228
+time of step 4 is : 0.567635
+time of step 5 is : 0.609047
+time of step 6 is : 0.016735
+time of latter step 7 is : 0.029664
+time of step 7 is : 0.286687
+time of step 3 is : 0.13253
+time of step 4 is : 0.584784
+time of step 5 is : 0.60923
+time of step 6 is : 0.015397
+time of latter step 7 is : 0.061037
+time of step 7 is : 0.249098
+time of step 3 is : 0.198768
+time of step 4 is : 0.533141
+time of step 5 is : 0.50643
+time of step 6 is : 0.01677
+time of latter step 7 is : 0.065813
+time of step 7 is : 0.228776
+time of step 3 is : 0.260752
+time of step 4 is : 0.518651
+time of step 5 is : 0.614426
+time of step 6 is : 0.015376
+time of latter step 7 is : 0.019719
+time of step 7 is : 0.168053
+time of step 3 is : 0.212734
+time of step 4 is : 0.496018
+time of step 5 is : 0.535502
+time of step 6 is : 0.015238
+time of latter step 7 is : 0.023508
+time of step 7 is : 0.174152
+time of step 3 is : 0.197542
+time of step 4 is : 0.54323
+time of step 5 is : 0.568773
+time of step 6 is : 0.016922
+time of latter step 7 is : 0.034668
+time of step 7 is : 0.173437
+time of step 3 is : 0.14807
+time of step 4 is : 0.630124
+time of step 5 is : 0.546926
+time of step 6 is : 0.015317
+time of latter step 7 is : 0.022849
+time of step 7 is : 0.164137
+time of step 3 is : 0.236308
+time of step 4 is : 0.685217
+time of step 5 is : 0.71697
+time of step 6 is : 0.01551
+time of latter step 7 is : 0.028807
+time of step 7 is : 0.220507
+time of step 3 is : 0.167139
+time of step 4 is : 0.65708
+time of step 5 is : 0.649302
+time of step 6 is : 0.043059
+time of latter step 7 is : 0.034832
+time of step 7 is : 0.241532
+time of step 3 is : 0.258896
+time of step 4 is : 0.735676
+time of step 5 is : 0.573594
+time of step 6 is : 0.015881
+time of latter step 7 is : 0.026613
+time of step 7 is : 0.169746
+time of step 3 is : 0.147397
+time of step 4 is : 0.671979
+time of step 5 is : 0.695452
+time of step 6 is : 0.035289
+time of latter step 7 is : 0.045574
+time of step 7 is : 0.285835
+time of step 3 is : 0.178926
+time of step 4 is : 0.711057
+time of step 5 is : 0.610599
+time of step 6 is : 0.01529
+time of latter step 7 is : 0.058007
+time of step 7 is : 0.357379
+time of step 3 is : 0.459771
+time of step 4 is : 0.681317
+time of step 5 is : 0.594089
+time of step 6 is : 0.036874
+time of latter step 7 is : 0.026714
+time of step 7 is : 0.254129
+time of step 3 is : 0.181018
+time of step 4 is : 0.851225
+time of step 5 is : 0.807601
+time of step 6 is : 0.067655
+time of latter step 7 is : 0.019451
+time of step 7 is : 0.511403
+time of step 3 is : 0.216965
+time of step 4 is : 0.800783
+time of step 5 is : 0.673791
+time of step 6 is : 0.017278
+time of latter step 7 is : 0.034591
+time of step 7 is : 0.297987
+time of step 3 is : 0.192639
+time of step 4 is : 0.761622
+time of step 5 is : 0.586411
+time of step 6 is : 0.015353
+time of latter step 7 is : 0.023392
+time of step 7 is : 0.181053
+time of step 3 is : 0.214444
+time of step 4 is : 0.951564
+time of step 5 is : 0.877959
+time of step 6 is : 0.015496
+time of latter step 7 is : 0.055395
+time of step 7 is : 0.315606
+time of step 3 is : 0.351722
+time of step 4 is : 0.702608
+time of step 5 is : 0.666119
+time of step 6 is : 0.016504
+time of latter step 7 is : 0.077126
+time of step 7 is : 0.278568
+time of step 3 is : 0.120008
+time of step 4 is : 0.924628
+time of step 5 is : 1.01167
+time of step 6 is : 0.050842
+time of latter step 7 is : 0.026726
+time of step 7 is : 0.41203
+time of step 3 is : 0.310221
+time of step 4 is : 1.10125
+time of step 5 is : 0.986551
+time of step 6 is : 0.016228
+time of latter step 7 is : 0.083655
+time of step 7 is : 0.36476
+time of step 3 is : 0.23211
+time of step 4 is : 0.960132
+time of step 5 is : 0.864241
+time of step 6 is : 0.02722
+time of latter step 7 is : 0.043917
+time of step 7 is : 0.238485
+time of step 3 is : 0.244778
+time of step 4 is : 0.872653
+time of step 5 is : 0.662756
+time of step 6 is : 0.01521
+time of latter step 7 is : 0.224632
+time of step 7 is : 0.370317
+time of step 3 is : 0.1739
+time of step 4 is : 0.993543
+time of step 5 is : 0.716878
+time of step 6 is : 0.015657
+time of latter step 7 is : 0.02368
+time of step 7 is : 0.131266
+time of step 3 is : 0.318383
+time of step 4 is : 0.760105
+time of step 5 is : 0.686296
+time of step 6 is : 0.018798
+time of latter step 7 is : 0.030996
+time of step 7 is : 0.256376
+time of step 3 is : 0.150787
+time of step 4 is : 0.745628
+time of step 5 is : 0.726954
+time of step 6 is : 0.017565
+time of latter step 7 is : 0.026592
+time of step 7 is : 0.195041
+time of step 3 is : 0.222469
+time of step 4 is : 0.698742
+time of step 5 is : 0.658746
+time of step 6 is : 0.015097
+time of latter step 7 is : 0.015541
+time of step 7 is : 0.137532
+time of step 3 is : 0.162014
+time of step 4 is : 0.746284
+time of step 5 is : 0.856036
+time of step 6 is : 0.016422
+time of latter step 7 is : 0.074091
+time of step 7 is : 0.295616
+time of step 3 is : 0.301606
+time of step 4 is : 0.935481
+time of step 5 is : 0.68221
+time of step 6 is : 0.018659
+time of latter step 7 is : 0.031364
+time of step 7 is : 0.218899
+time of step 3 is : 0.184634
+time of step 4 is : 0.89034
+time of step 5 is : 0.775594
+time of step 6 is : 0.049583
+time of latter step 7 is : 0.043264
+time of step 7 is : 0.231826
+time of step 3 is : 0.194924
+time of step 4 is : 0.932372
+time of step 5 is : 0.751818
+time of step 6 is : 0.015127
+time of latter step 7 is : 0.214726
+time of step 7 is : 0.413312
+time of step 3 is : 0.23961
+time of step 4 is : 0.889282
+time of step 5 is : 0.792853
+time of step 6 is : 0.031808
+time of latter step 7 is : 0.035379
+time of step 7 is : 0.215038
+time of step 3 is : 0.190428
+time of step 4 is : 1.00561
+time of step 5 is : 0.998745
+time of step 6 is : 0.016081
+time of latter step 7 is : 0.036407
+time of step 7 is : 0.23642
+time of step 3 is : 0.317025
+time of step 4 is : 0.950323
+time of step 5 is : 0.832158
+time of step 6 is : 0.015258
+time of latter step 7 is : 0.073469
+time of step 7 is : 0.44246
+time of step 3 is : 0.330571
+time of step 4 is : 1.25711
+time of step 5 is : 0.963814
+time of step 6 is : 0.045456
+time of latter step 7 is : 0.07723
+time of step 7 is : 0.460209
+time of step 3 is : 0.287709
+time of step 4 is : 1.32026
+time of step 5 is : 0.889419
+time of step 6 is : 0.01559
+time of latter step 7 is : 0.023601
+time of step 7 is : 0.159307
+time of step 3 is : 0.28119
+time of step 4 is : 0.781168
+time of step 5 is : 0.700518
+time of step 6 is : 0.016601
+time of latter step 7 is : 0.033736
+time of step 7 is : 0.186664
+time of step 3 is : 0.144543
+time of step 4 is : 1.07829
+time of step 5 is : 1.00004
+time of step 6 is : 0.015794
+time of latter step 7 is : 0.11042
+time of step 7 is : 0.288904
+time of step 3 is : 0.380868
+time of step 4 is : 1.44367
+time of step 5 is : 1.00063
+time of step 6 is : 0.016886
+time of latter step 7 is : 0.091967
+time of step 7 is : 0.447459
+time of step 3 is : 0.168306
+time of step 4 is : 1.11362
+time of step 5 is : 1.0321
+time of step 6 is : 0.015378
+time of latter step 7 is : 0.037237
+time of step 7 is : 0.483269
+time of step 3 is : 0.449416
+time of step 4 is : 1.17566
+time of step 5 is : 1.1018
+time of step 6 is : 0.047011
+time of latter step 7 is : 0.060316
+time of step 7 is : 0.455061
+time of step 3 is : 0.179091
+time of step 4 is : 0.971511
+time of step 5 is : 0.940935
+time of step 6 is : 0.015582
+time of latter step 7 is : 0.021182
+time of step 7 is : 0.178924
+time of step 3 is : 0.201933
+time of step 4 is : 0.868939
+time of step 5 is : 0.723632
+time of step 6 is : 0.015629
+time of latter step 7 is : 0.060585
+time of step 7 is : 0.274562
+time of step 3 is : 0.250112
+time of step 4 is : 1.05659
+time of step 5 is : 0.99612
+time of step 6 is : 0.015221
+time of latter step 7 is : 0.079843
+time of step 7 is : 0.247508
+time of step 3 is : 0.13582
+time of step 4 is : 0.816179
+time of step 5 is : 0.853015
+time of step 6 is : 0.017411
+time of latter step 7 is : 0.022262
+time of step 7 is : 0.121129
+time of step 3 is : 0.146371
+time of step 4 is : 1.0681
+time of step 5 is : 1.06674
+time of step 6 is : 0.015472
+time of latter step 7 is : 0.085129
+time of step 7 is : 0.491668
+time of step 3 is : 0.580648
+time of step 4 is : 1.38349
+time of step 5 is : 0.81312
+time of step 6 is : 0.030721
+time of latter step 7 is : 0.020223
+time of step 7 is : 0.183765
+time of step 3 is : 0.162604
+time of step 4 is : 0.948657
+time of step 5 is : 0.775193
+time of step 6 is : 0.017691
+time of latter step 7 is : 0.042307
+time of step 7 is : 0.226345
+time of step 3 is : 0.212512
+time of step 4 is : 0.775297
+time of step 5 is : 0.745425
+time of step 6 is : 0.015637
+time of latter step 7 is : 0.023726
+time of step 7 is : 0.197581
+time of step 3 is : 0.312932
+time of step 4 is : 0.824368
+time of step 5 is : 1.30776
+time of step 6 is : 0.027297
+time of latter step 7 is : 0.037112
+time of step 7 is : 0.286881
+time of step 3 is : 0.262553
+time of step 4 is : 0.928288
+time of step 5 is : 0.78486
+time of step 6 is : 0.015502
+time of latter step 7 is : 0.060892
+time of step 7 is : 0.210865
+time of step 3 is : 0.208255
+time of step 4 is : 0.937784
+time of step 5 is : 0.823269
+time of step 6 is : 0.015808
+time of latter step 7 is : 0.024079
+time of step 7 is : 0.237476
+time of step 3 is : 0.265642
+time of step 4 is : 0.814526
+time of step 5 is : 0.882489
+time of step 6 is : 0.015156
+time of latter step 7 is : 0.051941
+time of step 7 is : 0.250803
+time of step 3 is : 0.228638
+time of step 4 is : 1.38766
+time of step 5 is : 1.15838
+time of step 6 is : 0.017587
+time of latter step 7 is : 0.064292
+time of step 7 is : 0.260357
+time of step 3 is : 0.246871
+time of step 4 is : 1.04021
+time of step 5 is : 0.840941
+time of step 6 is : 0.01533
+time of latter step 7 is : 0.022111
+time of step 7 is : 0.199716
+time of step 3 is : 0.235784
+time of step 4 is : 1.11242
+time of step 5 is : 0.857884
+time of step 6 is : 0.041861
+time of latter step 7 is : 0.023566
+time of step 7 is : 0.20883
+time of step 3 is : 0.387182
+time of step 4 is : 0.791482
+time of step 5 is : 0.75638
+time of step 6 is : 0.015208
+time of latter step 7 is : 0.026908
+time of step 7 is : 0.342114
+time of step 3 is : 0.130056
+time of step 4 is : 0.940259
+time of step 5 is : 0.863844
+time of step 6 is : 0.075037
+time of latter step 7 is : 0.031371
+time of step 7 is : 0.165574
+time of step 3 is : 0.160409
+time of step 4 is : 1.02092
+time of step 5 is : 0.857456
+time of step 6 is : 0.0153
+time of latter step 7 is : 0.029503
+time of step 7 is : 0.184483
+time of step 3 is : 0.266027
+time of step 4 is : 0.935994
+time of step 5 is : 0.897927
+time of step 6 is : 0.015277
+time of latter step 7 is : 0.070323
+time of step 7 is : 0.313927
+time of step 3 is : 0.138349
+time of step 4 is : 0.932073
+time of step 5 is : 0.992331
+time of step 6 is : 0.015545
+time of latter step 7 is : 0.016269
+time of step 7 is : 0.139637
+time of step 3 is : 0.144969
+time of step 4 is : 1.01154
+time of step 5 is : 1.01707
+time of step 6 is : 0.0155
+time of latter step 7 is : 0.032123
+time of step 7 is : 0.240213
+time of step 3 is : 0.127269
+time of step 4 is : 0.965091
+time of step 5 is : 0.863181
+time of step 6 is : 0.016812
+time of latter step 7 is : 0.13027
+time of step 7 is : 0.290845
+time of step 3 is : 0.305235
+time of step 4 is : 1.04773
+time of step 5 is : 0.869906
+time of step 6 is : 0.031686
+time of latter step 7 is : 0.0239
+time of step 7 is : 0.244379
+time of step 3 is : 0.235468
+time of step 4 is : 1.02138
+time of step 5 is : 1.03276
+time of step 6 is : 0.015633
+time of latter step 7 is : 0.034012
+time of step 7 is : 0.163754
+time of step 3 is : 0.151764
+time of step 4 is : 0.939446
+time of step 5 is : 0.924574
+time of step 6 is : 0.043088
+time of latter step 7 is : 0.038874
+time of step 7 is : 0.14657
+time of step 3 is : 0.120654
+time of step 4 is : 1.02212
+time of step 5 is : 0.912823
+time of step 6 is : 0.016107
+time of latter step 7 is : 0.023576
+time of step 7 is : 0.259518
+time of step 3 is : 0.28366
+time of step 4 is : 1.04397
+time of step 5 is : 0.966502
+time of step 6 is : 0.015402
+time of latter step 7 is : 0.05872
+time of step 7 is : 0.224942
+time of step 3 is : 0.211136
+time of step 4 is : 1.08714
+time of step 5 is : 1.00751
+time of step 6 is : 0.015352
+time of latter step 7 is : 0.023821
+time of step 7 is : 0.160915
+time of step 3 is : 0.195776
+time of step 4 is : 1.07549
+time of step 5 is : 0.930369
+time of step 6 is : 0.015192
+time of latter step 7 is : 0.027119
+time of step 7 is : 0.277658
+time of step 3 is : 0.173389
+time of step 4 is : 1.03771
+time of step 5 is : 0.881288
+time of step 6 is : 0.015285
+time of latter step 7 is : 0.051221
+time of step 7 is : 0.208713
+time of step 3 is : 0.167241
+time of step 4 is : 1.15452
+time of step 5 is : 0.97619
+time of step 6 is : 0.01577
+time of latter step 7 is : 0.067517
+time of step 7 is : 0.345347
+time of step 3 is : 0.144737
+time of step 4 is : 1.0798
+time of step 5 is : 0.973046
+time of step 6 is : 0.017303
+time of latter step 7 is : 0.021151
+time of step 7 is : 0.293229
+time of step 3 is : 0.180937
+time of step 4 is : 1.26304
+time of step 5 is : 1.03635
+time of step 6 is : 0.016209
+time of latter step 7 is : 0.106186
+time of step 7 is : 0.270549
+time of step 3 is : 0.134939
+time of step 4 is : 1.23046
+time of step 5 is : 0.954252
+time of step 6 is : 0.017575
+time of latter step 7 is : 0.035585
+time of step 7 is : 0.15286
+time of step 3 is : 0.283977
+time of step 4 is : 1.10623
+time of step 5 is : 0.984374
+time of step 6 is : 0.015722
+time of latter step 7 is : 0.023385
+time of step 7 is : 0.140052
+time of step 3 is : 0.190542
+time of step 4 is : 1.01191
+time of step 5 is : 1.00407
+time of step 6 is : 0.016861
+time of latter step 7 is : 0.033217
+time of step 7 is : 0.181431
+time of step 3 is : 0.163111
+time of step 4 is : 1.04955
+time of step 5 is : 0.976345
+time of step 6 is : 0.016875
+time of latter step 7 is : 0.019048
+time of step 7 is : 0.160554
+time of step 3 is : 0.149809
+time of step 4 is : 1.05951
+time of step 5 is : 0.90756
+time of step 6 is : 0.015189
+time of latter step 7 is : 0.043226
+time of step 7 is : 0.184024
+time of step 3 is : 0.144459
+time of step 4 is : 1.21677
+time of step 5 is : 0.965942
+time of step 6 is : 0.01515
+time of latter step 7 is : 0.02398
+time of step 7 is : 0.204822
+time of step 3 is : 0.290113
+time of step 4 is : 1.06534
+time of step 5 is : 0.884356
+time of step 6 is : 0.017435
+time of latter step 7 is : 0.023473
+time of step 7 is : 0.144939
+time of step 3 is : 0.142057
+time of step 4 is : 1.11286
+time of step 5 is : 1.07487
+time of step 6 is : 0.017079
+time of latter step 7 is : 0.058195
+time of step 7 is : 0.215387
+time of step 3 is : 0.160664
+time of step 4 is : 1.11817
+time of step 5 is : 0.974994
+time of step 6 is : 0.015564
+time of latter step 7 is : 0.044734
+time of step 7 is : 0.188841
+time of step 3 is : 0.186639
+time of step 4 is : 1.12071
+time of step 5 is : 1.01486
+time of step 6 is : 0.034934
+time of latter step 7 is : 0.025934
+time of step 7 is : 0.222243
+time of step 3 is : 0.239113
+time of step 4 is : 1.04331
+time of step 5 is : 0.949174
+time of step 6 is : 0.015225
+time of latter step 7 is : 0.026536
+time of step 7 is : 0.213956
+time of step 3 is : 0.251475
+time of step 4 is : 1.41901
+time of step 5 is : 1.49489
+time of step 6 is : 0.096208
+time of latter step 7 is : 0.028785
+time of step 7 is : 0.228662
+time of step 3 is : 0.265597
+time of step 4 is : 1.73001
+time of step 5 is : 1.08796
+time of step 6 is : 0.015281
+time of latter step 7 is : 0.028525
+time of step 7 is : 0.169623
+time of step 3 is : 0.157685
+time of step 4 is : 1.14231
+time of step 5 is : 0.980537
+time of step 6 is : 0.015148
+time of latter step 7 is : 0.019257
+time of step 7 is : 0.156802
+time of step 3 is : 0.171281
+time of step 4 is : 1.10459
+time of step 5 is : 1.00725
+time of step 6 is : 0.101628
+time of latter step 7 is : 0.016112
+time of step 7 is : 0.21896
+time of step 3 is : 0.195642
+time of step 4 is : 1.02488
+time of step 5 is : 1.02497
+time of step 6 is : 0.015708
+time of latter step 7 is : 0.127837
+time of step 7 is : 0.26245
+time of step 3 is : 0.127367
+time of step 4 is : 1.26555
+time of step 5 is : 1.17347
+time of step 6 is : 0.015265
+time of latter step 7 is : 0.033241
+time of step 7 is : 0.178814
+time of step 3 is : 0.197358
+time of step 4 is : 1.21585
+time of step 5 is : 0.994149
+time of step 6 is : 0.01567
+time of latter step 7 is : 0.061042
+time of step 7 is : 0.284227
+time of step 3 is : 0.273513
+time of step 4 is : 1.33832
+time of step 5 is : 1.17552
+time of step 6 is : 0.015539
+time of latter step 7 is : 0.03463
+time of step 7 is : 0.221639
+time of step 3 is : 0.235029
+time of step 4 is : 1.24561
+time of step 5 is : 1.05526
+time of step 6 is : 0.015252
+time of latter step 7 is : 0.023436
+time of step 7 is : 0.119923
+time of step 3 is : 0.14131
+time of step 4 is : 1.25602
+time of step 5 is : 1.04806
+time of step 6 is : 0.01567
+time of latter step 7 is : 0.022702
+time of step 7 is : 0.206104
+time of step 3 is : 0.147069
+time of step 4 is : 1.20983
+time of step 5 is : 1.11819
+time of step 6 is : 0.015648
+time of latter step 7 is : 0.019402
+time of step 7 is : 0.125476
+time of step 3 is : 0.16742
+time of step 4 is : 1.17917
+time of step 5 is : 1.10294
+time of step 6 is : 0.016174
+time of latter step 7 is : 0.035468
+time of step 7 is : 0.180275
+time of step 3 is : 0.130609
+time of step 4 is : 1.33308
+time of step 5 is : 1.07424
+time of step 6 is : 0.015276
+time of latter step 7 is : 0.07972
+time of step 7 is : 0.273923
+time of step 3 is : 0.139559
+time of step 4 is : 1.18867
+time of step 5 is : 1.11146
+time of step 6 is : 0.01951
+time of latter step 7 is : 0.061191
+time of step 7 is : 0.250485
+time of step 3 is : 0.16892
+time of step 4 is : 1.25593
+time of step 5 is : 1.11485
+time of step 6 is : 0.026913
+time of latter step 7 is : 0.021826
+time of step 7 is : 0.227302
+time of step 3 is : 0.149363
+time of step 4 is : 1.33456
+time of step 5 is : 1.29992
+time of step 6 is : 0.017932
+time of latter step 7 is : 0.027377
+time of step 7 is : 0.235795
+time of step 3 is : 0.135997
+time of step 4 is : 1.31655
+time of step 5 is : 1.17976
+time of step 6 is : 0.022306
+time of latter step 7 is : 0.107953
+time of step 7 is : 0.303312
+time of step 3 is : 0.183124
+time of step 4 is : 1.27731
+time of step 5 is : 1.05027
+time of step 6 is : 0.015257
+time of latter step 7 is : 0.025931
+time of step 7 is : 0.182303
+time of step 3 is : 0.290691
+time of step 4 is : 1.34204
+time of step 5 is : 1.14763
+time of step 6 is : 0.022275
+time of latter step 7 is : 0.036402
+time of step 7 is : 0.20447
+time of step 3 is : 0.145676
+time of step 4 is : 1.43132
+time of step 5 is : 1.28439
+time of step 6 is : 0.015349
+time of latter step 7 is : 0.0559
+time of step 7 is : 0.261881
+time of step 3 is : 0.238273
+time of step 4 is : 1.24753
+time of step 5 is : 1.13346
+time of step 6 is : 0.017254
+time of latter step 7 is : 0.020517
+time of step 7 is : 0.196088
+time of step 3 is : 0.188565
+time of step 4 is : 1.32188
+time of step 5 is : 1.04765
+time of step 6 is : 0.015607
+time of latter step 7 is : 0.0238
+time of step 7 is : 0.192015
+time of step 3 is : 0.14337
+time of step 4 is : 1.25782
+time of step 5 is : 1.13678
+time of step 6 is : 0.015242
+time of latter step 7 is : 0.023814
+time of step 7 is : 0.157577
+time of step 3 is : 0.24234
+time of step 4 is : 1.20172
+time of step 5 is : 1.11696
+time of step 6 is : 0.015262
+time of latter step 7 is : 0.036254
+time of step 7 is : 0.202775
+time of step 3 is : 0.200828
+time of step 4 is : 1.2396
+time of step 5 is : 1.15017
+time of step 6 is : 0.015903
+time of latter step 7 is : 0.036821
+time of step 7 is : 0.181816
+time of step 3 is : 0.146474
+time of step 4 is : 1.41071
+time of step 5 is : 1.1619
+time of step 6 is : 0.021976
+time of latter step 7 is : 0.020898
+time of step 7 is : 0.224782
+time of step 3 is : 0.17748
+time of step 4 is : 1.42286
+time of step 5 is : 1.12064
+time of step 6 is : 0.015289
+time of latter step 7 is : 0.033249
+time of step 7 is : 0.280584
+time of step 3 is : 0.150392
+time of step 4 is : 1.38461
+time of step 5 is : 1.40976
+time of step 6 is : 0.015703
+time of latter step 7 is : 0.029382
+time of step 7 is : 0.310154
+time of step 3 is : 0.185616
+time of step 4 is : 1.46107
+time of step 5 is : 1.24194
+time of step 6 is : 0.015819
+time of latter step 7 is : 0.073276
+time of step 7 is : 0.300825
+time of step 3 is : 0.220883
+time of step 4 is : 1.40274
+time of step 5 is : 1.28498
+time of step 6 is : 0.027499
+time of latter step 7 is : 0.056083
+time of step 7 is : 0.234661
+time of step 3 is : 0.12302
+time of step 4 is : 1.58815
+time of step 5 is : 1.31506
+time of step 6 is : 0.017294
+time of latter step 7 is : 0.052915
+time of step 7 is : 0.303452
+time of step 3 is : 0.287018
+time of step 4 is : 1.89462
+time of step 5 is : 1.38457
+time of step 6 is : 0.017479
+time of latter step 7 is : 0.02926
+time of step 7 is : 0.250909
+time of step 3 is : 0.245054
+time of step 4 is : 1.54008
+time of step 5 is : 1.44592
+time of step 6 is : 0.018862
+time of latter step 7 is : 0.023871
+time of step 7 is : 0.166198
+time of step 3 is : 0.141086
+time of step 4 is : 1.2795
+time of step 5 is : 1.25828
+time of step 6 is : 0.015723
+time of latter step 7 is : 0.075878
+time of step 7 is : 0.337553
+time of step 3 is : 0.190048
+time of step 4 is : 1.34662
+time of step 5 is : 1.25603
+time of step 6 is : 0.016703
+time of latter step 7 is : 0.026305
+time of step 7 is : 0.261995
+time of step 3 is : 0.187248
+time of step 4 is : 1.39662
+time of step 5 is : 1.12315
+time of step 6 is : 0.029427
+time of latter step 7 is : 0.03104
+time of step 7 is : 0.232214
+time of step 3 is : 0.105934
+time of step 4 is : 1.38834
+time of step 5 is : 1.28321
+time of step 6 is : 0.015167
+time of latter step 7 is : 0.032358
+time of step 7 is : 0.176609
+time of step 3 is : 0.176434
+time of step 4 is : 1.5175
+time of step 5 is : 1.15857
+time of step 6 is : 0.017038
+time of latter step 7 is : 0.034251
+time of step 7 is : 0.155652
+time of step 3 is : 0.188971
+time of step 4 is : 1.4022
+time of step 5 is : 1.2752
+time of step 6 is : 0.015333
+time of latter step 7 is : 0.066436
+time of step 7 is : 0.18941
+time of step 3 is : 0.236972
+time of step 4 is : 1.43004
+time of step 5 is : 1.1698
+time of step 6 is : 0.015562
+time of latter step 7 is : 0.020902
+time of step 7 is : 0.200884
+time of step 3 is : 0.177443
+time of step 4 is : 1.3296
+time of step 5 is : 1.33518
+time of step 6 is : 0.015429
+time of latter step 7 is : 0.034576
+time of step 7 is : 0.427447
+time of step 3 is : 0.235143
+time of step 4 is : 1.38702
+time of step 5 is : 1.24563
+time of step 6 is : 0.017305
+time of latter step 7 is : 0.012951
+time of step 7 is : 0.108577
+time of step 3 is : 0.203786
+time of step 4 is : 1.3963
+time of step 5 is : 1.47518
+time of step 6 is : 0.036114
+time of latter step 7 is : 0.075683
+time of step 7 is : 0.26044
+time of step 3 is : 0.16191
+time of step 4 is : 1.67856
+time of step 5 is : 1.25285
+time of step 6 is : 0.015695
+time of latter step 7 is : 0.044426
+time of step 7 is : 0.185877
+time of step 3 is : 0.162812
+time of step 4 is : 1.3122
+time of step 5 is : 1.19159
+time of step 6 is : 0.015896
+time of latter step 7 is : 0.02858
+time of step 7 is : 0.214026
+time of step 3 is : 0.238589
+time of step 4 is : 1.34613
+time of step 5 is : 1.23727
+time of step 6 is : 0.026493
+time of latter step 7 is : 0.03167
+time of step 7 is : 0.175938
+time of step 3 is : 0.234945
+time of step 4 is : 1.34182
+time of step 5 is : 1.31404
+time of step 6 is : 0.054919
+time of latter step 7 is : 0.04786
+time of step 7 is : 0.18218
+time of step 3 is : 0.201497
+time of step 4 is : 1.61707
+time of step 5 is : 1.1809
+time of step 6 is : 0.015265
+time of latter step 7 is : 0.050876
+time of step 7 is : 0.247939
+time of step 3 is : 0.29893
+time of step 4 is : 1.27797
+time of step 5 is : 1.31708
+time of step 6 is : 0.01535
+time of latter step 7 is : 0.018154
+time of step 7 is : 0.133345
+time of step 3 is : 0.2181
+time of step 4 is : 1.4959
+time of step 5 is : 1.16342
+time of step 6 is : 0.015378
+time of latter step 7 is : 0.019922
+time of step 7 is : 0.126687
+time of step 3 is : 0.199739
+time of step 4 is : 1.37341
+time of step 5 is : 1.22062
+time of step 6 is : 0.015411
+time of latter step 7 is : 0.040939
+time of step 7 is : 0.258056
+time of step 3 is : 0.15552
+time of step 4 is : 1.33979
+time of step 5 is : 1.17943
+time of step 6 is : 0.014919
+time of latter step 7 is : 0.031851
+time of step 7 is : 0.206165
+time of step 3 is : 0.173133
+time of step 4 is : 1.4439
+time of step 5 is : 1.2128
+time of step 6 is : 0.020528
+time of latter step 7 is : 0.018495
+time of step 7 is : 0.201863
+time of step 3 is : 0.161179
+time of step 4 is : 1.33433
+time of step 5 is : 1.35714
+time of step 6 is : 0.015865
+time of latter step 7 is : 0.020229
+time of step 7 is : 0.210448
+time of step 3 is : 0.313685
+time of step 4 is : 1.45259
+time of step 5 is : 1.28033
+time of step 6 is : 0.015759
+time of latter step 7 is : 0.071863
+time of step 7 is : 0.210863
+time of step 3 is : 0.163936
+time of step 4 is : 1.50088
+time of step 5 is : 1.2773
+time of step 6 is : 0.016813
+time of latter step 7 is : 0.059563
+time of step 7 is : 0.277897
+time of step 3 is : 0.183529
+time of step 4 is : 1.46355
+time of step 5 is : 1.26597
+time of step 6 is : 0.017261
+time of latter step 7 is : 0.065775
+time of step 7 is : 0.248577
+time of step 3 is : 0.262853
+time of step 4 is : 1.60915
+time of step 5 is : 1.39645
+time of step 6 is : 0.015237
+time of latter step 7 is : 0.042814
+time of step 7 is : 0.412416
+time of step 3 is : 0.148938
+time of step 4 is : 1.54495
+time of step 5 is : 1.2619
+time of step 6 is : 0.015611
+time of latter step 7 is : 0.015177
+time of step 7 is : 0.156721
+time of step 3 is : 0.305555
+time of step 4 is : 1.51595
+time of step 5 is : 1.44194
+time of step 6 is : 0.015359
+time of latter step 7 is : 0.032865
+time of step 7 is : 0.258246
+time of step 3 is : 0.18606
+time of step 4 is : 1.53298

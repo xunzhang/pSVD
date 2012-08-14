@@ -1,0 +1,12 @@
+500000
+500000
+local m is 5000
+local m_At is 195
+local m is 4999
+local m_At is 202
+Bp[m] is 500000
+nnz is 500000
+Bp[m] is 500000
+nnz is 500000
+Bp[m] is 22349
+nnz is 500000
