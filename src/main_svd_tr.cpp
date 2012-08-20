@@ -1,6 +1,6 @@
 /* run_svd_tr.cpp */
 
-/* Usage: mpic++ -I/home/wuhong_intern/local/include -L/home/wuhong_intern/local/lib -std=c++0x -std=gnu++0x -lmpi -fopenmp -I/usr/include/mysql      -Wall -O0 main_svd_tr.cpp -llapack -lgfortran -lblas -lcblas
+/* Usage: mpic++ -I/home/wuhong_intern/local/include -L/home/wuhong_intern/local/lib -std=c++0x -std=gnu++0x -lmpi -fopenmp -I/usr/include/mysql      -Wall -O3 main_svd_tr.cpp -llapack -lgfortran -lblas -lcblas -o main_svd_tr
 */
 
 #include <map>
@@ -24,17 +24,17 @@ int main(int argc, char *argv[]) {
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 	MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
 
-	int m, n, m_At, n_At, nnz, k = 400, p = 400, display = 10;
+	int m, n, m_At, n_At, nnz, k = 200, p = 200, display = 10;
 	int len, begin, end, s_indx, t_s_indx;
 	std::map<int, int> word_kind;
 	FILE *fp, *fp2;
 
-	fp = fopen("matrix_100wx100w.bin", "rb");
+	fp = fopen("pwtk.bin", "rb");
 	fread(&m, sizeof(int), 1, fp);
 	fread(&n, sizeof(int), 1, fp);
 	fread(&nnz, sizeof(int), 1, fp);
 	
-	fp2 = fopen("matrix_100wx100w_trans.bin", "rb");
+	fp2 = fopen("pwtk_trans.bin", "rb");
 	fread(&m_At, sizeof(int), 1, fp2);
 	fread(&n_At, sizeof(int), 1, fp2);
 	fread(&nnz, sizeof(int), 1, fp2);

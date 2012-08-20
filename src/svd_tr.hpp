@@ -10,6 +10,7 @@
 #ifndef FILE_5381048f_3032_49de_9166_64d32706b8ea_H
 #define FILE_5381048f_3032_49de_9166_64d32706b8ea_H
 #include "douban/linalg/svd.hpp"
+//#include "douban/linalg/bidiag_waste.hpp"
 #include "douban/linalg/bidiag.hpp"
 #include "douban/linalg/gemv_ax.hpp"
 #include "douban/matvec/io.hpp"

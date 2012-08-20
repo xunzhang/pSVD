@@ -189,6 +189,7 @@ void bidiag_gkl(CA && A, CD && D, CE && E, CP && P, CQ && Q) {
   bidiag_gkl(make_gemv_ax(&A), make_gemv_atx(&A), D, E, P, Q);
 }
 
+/*
 template <class CM, class CRecv>
 void local_union(CM && mat, CRecv && recv_tmp, int indx, int nprocs) {
   for(size_t i = 0; i < mat.dim0(); ++i)
@@ -197,14 +198,25 @@ void local_union(CM && mat, CRecv && recv_tmp, int indx, int nprocs) {
   for(size_t i = 0; i < mat.dim0(); ++i)
     mat.col(indx).get(i) = recv_tmp.get(i);
 }
+*/
 
+template <class CM, class CRecv>
+void local_union(CM && mat, CRecv && recv_tmp, int indx, int nprocs) {
+  for(size_t i = 0; i < mat.dim0(); ++i)
+    // mat.col(indx)[i] = 0;
+    for(size_t j = 1; j < (size_t)nprocs; ++j)
+      mat.col(indx)[i] += recv_tmp.get(j * mat.dim0() + i);
+}
+
+/*
 template<class CM, class CV, class CR>
 void parallel_gemv_task(CM && mat, CV && vec, CR && res) {
   int rank, nprocs;
   MPI_Comm_rank(MPI_COMM_WORLD, &rank);
   MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
-  
-  int m = (int)mat.dim0(), n = (int)mat.dim1();
+  double l_start, l_end;
+
+  int m = (int)mat.dim0();// n = (int)mat.dim1();
   int load = m / nprocs;
   int remainder = m % nprocs;
   int max_load = load + remainder;
@@ -214,7 +226,8 @@ void parallel_gemv_task(CM && mat, CV && vec, CR && res) {
   // add include file??!!
   mat_container<double> pA(max_load, n);
   vec_container<double> y_tmp(max_load);
-
+  
+  l_start = currenttime();
   // copy value of mat by each procs
   for(int i = 0; i < load; ++i)
     for(int j = 0; j < n; ++j)
@@ -223,9 +236,16 @@ void parallel_gemv_task(CM && mat, CV && vec, CR && res) {
     for(int i = load; i < max_load; ++i)
       for(int j = 0; j < n; ++j)
         pA.get(i, j) = mat.get(i + rank * load, j); 
-  
+  l_end = currenttime();
+  std::cout << "prapare in step 4 cost time is : " << (l_end - l_start) / 1.0e6 << std::endl;
+
+  l_start = currenttime();
   // General matrix vector multiplication
   y_tmp = gemv(pA, vec);
+  l_end = currenttime();
+  std::cout << "pA.dim0 is " << pA.dim0() << std::endl;
+  std::cout << "pA.dim1 is " << pA.dim1() << std::endl;
+  std::cout << "mv in step 4 cost time is : " << (l_end - l_start) / 1.0e6 << std::endl;
   
   // Prepare for MPI_Gatherv
   for(int i = 0; i < nprocs; ++i) {
@@ -237,6 +257,48 @@ void parallel_gemv_task(CM && mat, CV && vec, CR && res) {
   if(rank == nprocs - 1)
     load = max_load;
   
+  // MPI_Gatherv
+  MPI_Gatherv(&y_tmp[0], load, MPI_DOUBLE, &res[0], &rcounts[0], &displs[0], MPI_DOUBLE, 0, MPI_COMM_WORLD);
+  l_start = currenttime();
+  std::cout << "gatherv in step 4 cost time is : " << (l_start - l_end) / 1.0e6 << std::endl;
+
+  delete [] rcounts;
+  deaete [] displs;
+  
+  return;
+}
+*/
+
+template<class CM, class CV, class CR>
+void parallel_gemv_task(CM && mat, CV && vec, CR && res) {
+  int rank, nprocs;
+  MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+  MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
+
+  int m = (int)mat.dim0();// n = (int)mat.dim1();
+  int load = m / nprocs;
+  int remainder = m % nprocs;
+  int max_load = load + remainder;
+  int *rcounts = new int [nprocs];
+  int *displs = new int [nprocs];
+  int offset;
+  offset = rank * load;
+  
+  douban::vec_container<double> y_tmp(max_load);
+   
+  // General matrix vector multiplication
+  y_tmp = douban::gemv(mat_rows(mat, offset, offset + max_load), vec);
+  
+  // Prepare for MPI_Gatherv
+  for(int i = 0; i < nprocs; ++i) {
+    rcounts[i] = load;
+    displs[i] = i * load;
+  }
+  if(remainder != 0)
+    rcounts[nprocs - 1] = max_load;
+  if(rank == nprocs - 1)
+    load = max_load;
+
   // MPI_Gatherv
   MPI_Gatherv(&y_tmp[0], load, MPI_DOUBLE, &res[0], &rcounts[0], &displs[0], MPI_DOUBLE, 0, MPI_COMM_WORLD);
   
@@ -324,7 +386,10 @@ void bidiag_gkl_restart(
     }
       
     // Step 4
-    MPI_Bcast(&(Q.col(0)[0]), Q.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD); 
+    for(size_t aa = 0; aa < Q.dim0(); ++aa) // row
+      MPI_Bcast(&(Q.row(aa)[0]), j + 2, MPI_DOUBLE, 0, MPI_COMM_WORLD); 
+    // MPI_Bcast(&(Q.col(0)[0]), Q.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD); 
+    
     if(rank == 0)
       t_end = currenttime();
     auto Qj = mat_cols(Q, 0, j + 1);
@@ -368,10 +433,12 @@ void bidiag_gkl_restart(
       t_total6 += (t_start - t_end) / 1.0e6;
       std::cout << "time of step 6 is : " << (t_start - t_end) / 1.0e6 << std::endl;
     } 
-      
+    
     // Step 7
     // MPI_Bcast(&(Q.col(j+1)[0]), Q.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
-    MPI_Bcast(&(Q.col(0)[0]), Q.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    // MPI_Bcast(&(Q.col(0)[0]), Q.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+    for(size_t aa = 0; aa < Q.dim0(); ++aa)
+      MPI_Bcast(&(Q.col(j+1)[aa]), 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
 
     if (j + 1 < n) {
       if(rank == 0) 
@@ -399,8 +466,10 @@ void bidiag_gkl_restart(
       }
 
       // MPI_Bcast(&(P.col(l)[0]), P.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
-      MPI_Bcast(&(P.col(0)[0]), P.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
-      
+      // MPI_Bcast(&(P.col(0)[0]), P.size(), MPI_DOUBLE, 0, MPI_COMM_WORLD);
+      for(size_t aa = 0; aa < P.dim0(); ++aa)
+        MPI_Bcast(&(P.col(j+1)[aa]), 1, MPI_DOUBLE, 0, MPI_COMM_WORLD);
+
     }  // end if
   }    // end while
   
