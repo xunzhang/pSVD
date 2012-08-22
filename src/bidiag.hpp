@@ -1,12 +1,6 @@
 /**
- * @file   gebrd.hpp
- * @author Changsheng Jiang <jiangzuoyan@gmail.com>
- * @date   Thu Oct 27 15:29:05 2011
- *
  * @brief bidiagonalization
- *
- *
- */
+ **/
 #ifndef FILE_8180cdd3_0cd2_4606_8640_9c0792474dde_H
 #define FILE_8180cdd3_0cd2_4606_8640_9c0792474dde_H
 #include "douban/linalg/householder.hpp"

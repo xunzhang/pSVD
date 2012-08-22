@@ -1,12 +1,6 @@
 /**
- * @file   svd_tr.hpp
- * @author Changsheng Jiang <jiangzuoyan@gmail.com>
- * @date   Mon Feb 27 12:00:18 2012
- *
  * @brief thick restart svd method
- *
- *
- */
+ **/
 #ifndef FILE_5381048f_3032_49de_9166_64d32706b8ea_H
 #define FILE_5381048f_3032_49de_9166_64d32706b8ea_H
 #include "douban/linalg/svd.hpp"
@@ -17,9 +11,7 @@
 #include "douban/gemm.hpp"
 #include "douban/clog.hpp"
 
-/* edited by wuhong */
 #include <iostream>
-/* edited by wuhong */
 
 #include <sys/time.h>
 
